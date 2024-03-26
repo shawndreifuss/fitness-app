@@ -67,7 +67,7 @@ module.exports.ForgotPassword = async (req, res, next) => {
       // Get users email
       const { email } = req.body;
       const user = await User.findOne({ email });
-      if(!user) return res.status(400).json({message: "User does not exist"});
+      if(!user) return res.status(400).json({message: "User with that email does not exist"});
     
       //  Create reset password token and save it to the user
       const resetToken = createToken();
@@ -76,7 +76,7 @@ module.exports.ForgotPassword = async (req, res, next) => {
       await user.save(); 
     
       //  Send email to the user with the reset password token
-      const resetURL = `http://localhost:5173/forgot-password/${resetToken}`;
+      const resetURL = `http://localhost:5173/login/forgot-password/${resetToken}`;
       const message = `Forgot your password? Submit a PATCH request with your new password and passwordConfirm to: ${resetURL}.\nIf you didn't forget your password, please ignore this email!`;
       
       //  Send email to the user
@@ -151,6 +151,53 @@ module.exports.GetMe = async (req, res, next) => {
     (error) {
       return next("new ErrorHandler(error.message, 500)");
     }
-
-
 }
+
+
+//  Logout /api/auth/logout
+module.exports.Logout = async (req, res, next) => {
+  res.clearCookie('token');
+  res.json({ message: 'Logout successful' });
+};
+
+//  Handle Google Login and register  /api/auth/oauth
+module.exports.OAuth = async (req, res, next) => {
+  try {
+    const { email, password } = req.body;
+    const existingUser = await User.findOne({ email });
+    // If user exists, log them in
+    if (existingUser) {
+      const token = createToken(existingUser._id);
+      res.cookie("token", token, {
+        withCredentials: true,
+        httpOnly: false,
+      });
+      return res
+        .status(200)
+        .json({
+          success: true,
+          message: "Welcome back ",
+          existingUser,
+          token,
+        });
+      // If user does not exist, register them
+    } else {
+      const user = await User.create({ email, password });
+      const token = createToken(user._id);
+      res.cookie("token", token, {
+        withCredentials: true,
+        httpOnly: false,
+      });
+      return res
+        .status(201)
+        .json({
+          success: true,
+          message: "Welcome ",
+          user,
+          token,
+        });
+    }
+  } catch (error) {
+    res.status(500).json({ success: false, message: error.message });
+  }
+};
