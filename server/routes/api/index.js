@@ -1,11 +1,7 @@
 const router = require('express').Router();
+const authRoutes = require('./auth');
 
-// ** ToDO: Add your API routes here **
-// const authRoute = require('./auth');
-
-
-
-// router.use('/auth', authRoute);
+router.use('/auth', authRoutes);
 
 
 

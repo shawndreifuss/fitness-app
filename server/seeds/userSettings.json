@@ -1,0 +1,71 @@
+[
+    {
+      "userId": "66025546fa7d19ffaf8ca0f4",
+      "notifications": {
+        "email": true,
+        "sms": false,
+        "push": true
+      },
+      "workoutSettings": {
+        "reminders": true,
+        "reminderTime": "07:00",
+        "autoTrack": true
+      },
+      "nutritionalSettings": {
+        "calorieGoal": 2500,
+        "macroSplit": {
+          "carbs": 40,
+          "protein": 40,
+          "fats": 20
+        },
+        "dietaryRestrictions": ["Gluten-Free"]
+      },
+      "social": {
+        "connectFacebook": true,
+        "connectTwitter": false,
+        "connectInstagram": true
+      },
+      "dataSharing": {
+        "shareWithResearch": true,
+        "shareWithPartners": false
+      },
+      "createdAt": "2024-03-25T00:00:00Z",
+      "updatedAt": "2024-03-25T00:00:00Z"
+    },
+    {
+      "userId":  "66025546fa7d19ffaf8ca0f3",
+      "notifications": {
+        "email": false,
+        "sms": true,
+        "push": false
+      },
+      "workoutSettings": {
+        "reminders": false,
+        "reminderTime": "18:00",
+        "autoTrack": false
+      },
+      "nutritionalSettings": {
+        "calorieGoal": 1800,
+        "macroSplit": {
+          "carbs": 50,
+          "protein": 25,
+          "fats": 25
+        },
+        "dietaryRestrictions": ["Vegan", "Nut-Free"]
+      },
+      "social": {
+        "connectFacebook": false,
+        "connectTwitter": true,
+        "connectInstagram": false
+      },
+      "dataSharing": {
+        "shareWithResearch": false,
+        "shareWithPartners": true
+      },
+      "createdAt": "2024-03-26T00:00:00Z",
+      "updatedAt": "2024-03-26T00:00:00Z"
+    }
+    ]
+    
+
+  

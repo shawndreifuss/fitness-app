@@ -4,8 +4,7 @@ const UserSettingsSchema = new mongoose.Schema({
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
-    required: true,
-    unique: true
+    required: true
   },
   notifications: {
     email: { type: Boolean, default: true },

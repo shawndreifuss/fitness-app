@@ -1,0 +1,114 @@
+[
+    {
+      "name": "Alex Smith",
+      "email": "alexsmith@example.com",
+      "password": "hashed_password_placeholder",
+      "avatar": "https://example.com/path/to/alex-avatar.jpg",
+      "isAdmin": false,
+      "age": 29,
+      "weight": 70,
+      "height": 175,
+      "gender": "male",
+      "phone": "123-456-7890",
+     "settings": "632f1b2c3d4e5f67890a1b3d",
+      "preferences": {
+        "dietary": "vegan",
+        "workoutLocation": "gym"
+      },
+      "activityLevel": "moderately active",
+      "fitnessGoals": ["gain muscle"],
+      "healthMetrics": {
+        "bodyFatPercentage": 18,
+        "restingHeartRate": 60,
+        "bloodPressure": "120/80"
+      },
+      "dietaryRestrictions": ["gluten-free"],
+      "workoutPreferences": {
+        "duration": 60,
+        "intensity": "high",
+        "activities": ["weightlifting", "cycling"]
+      },
+      "subscriptionStatus": true,
+      "lastLogin": "2024-03-20T08:00:00Z",
+      "progressPhotos": [
+        "https://example.com/path/to/photo1.jpg"
+      ],
+      "achievements": ["Completed 5k run"],
+      "createdAt": "2024-01-01T00:00:00Z"
+    },
+    {
+      "name": "Jamie Lee",
+      "email": "jamielee@example.com",
+      "password": "hashed_password_placeholder",
+      "avatar": "https://example.com/path/to/jamie-avatar.jpg",
+      "isAdmin": false,
+      "age": 34,
+      "weight": 65,
+      "height": 165,
+      "gender": "female",
+      "phone": "987-654-3210",
+      "settings": "632f1b2c3d4e5f67890a1b3c",
+      "preferences": {
+        "dietary": "paleo",
+        "workoutLocation": "outdoors"
+      },
+      "activityLevel": "lightly active",
+      "fitnessGoals": ["lose weight", "increase stamina"],
+      "healthMetrics": {
+        "bodyFatPercentage": 22,
+        "restingHeartRate": 70,
+        "bloodPressure": "130/85"
+      },
+      "dietaryRestrictions": ["dairy-free"],
+      "workoutPreferences": {
+        "duration": 45,
+        "intensity": "medium",
+        "activities": ["running", "yoga"]
+      },
+      "subscriptionStatus": false,
+      "lastLogin": "2024-03-22T07:30:00Z",
+      "progressPhotos": [
+        "https://example.com/path/to/photo2.jpg"
+      ],
+      "achievements": ["1 month streak"],
+      "createdAt": "2024-02-05T00:00:00Z"
+    },
+    {
+      "name": "Casey Jordan",
+      "email": "caseyjordan@example.com",
+      "password": "hashed_password_placeholder",
+      "avatar": "https://example.com/path/to/casey-avatar.jpg",
+      "isAdmin": true,
+      "age": 40,
+      "weight": 80,
+      "height": 180,
+      "gender": "other",
+      "phone": "456-123-7890",
+      "settings": "632f1b245Bge5f67890a1b3e",
+      "preferences": {
+        "dietary": "ketogenic",
+        "workoutLocation": "home"
+      },
+      "activityLevel": "very active",
+      "fitnessGoals": ["run a marathon"],
+      "healthMetrics": {
+        "bodyFatPercentage": 15,
+        "restingHeartRate": 55,
+        "bloodPressure": "115/75"
+      },
+      "dietaryRestrictions": [],
+      "workoutPreferences": {
+        "duration": 120,
+        "intensity": "low",
+        "activities": ["marathon training", "swimming"]
+      },
+      "subscriptionStatus": true,
+      "lastLogin": "2024-03-24T06:45:00Z",
+      "progressPhotos": [
+        "https://example.com/path/to/photo3.jpg"
+      ],
+      "achievements": ["Completed marathon"],
+      "createdAt": "2024-03-01T00:00:00Z"
+    }
+  ]
+  
