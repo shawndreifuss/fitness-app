@@ -135,4 +135,22 @@ user.password = newPassword;
 }
 
   
+// Get Current User - GET /api/auth/me
+module.exports.GetMe = async (req, res, next) => {
+  try {
+    const user = await User.findById(req.user.id).populate("settings").lean();
+    if(!user) {
+      return next("User not found");
+    }
+    res.status(200).json({
+      success: true,
+      user
+    })
 
+   }catch
+    (error) {
+      return next("new ErrorHandler(error.message, 500)");
+    }
+
+
+}
