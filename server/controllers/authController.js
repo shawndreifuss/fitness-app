@@ -98,5 +98,41 @@ module.exports.ForgotPassword = async (req, res, next) => {
       res.status(500).json({success: false, message: error.message});
     }
   }
+
+  // Reset and change Password - POST /api/auth/forgot-password/:resetToken
+module.exports.ChangePassword = async (req, res, next) => {
+  try {
+    //  Get user based on the token
+    const  { password }   = req.body
+    const { resetToken } = req.params;
+    
+    const newPassword = password
+    const user = await User.findOne({
+      passwordResetToken: resetToken,
+      passwordResetExpires: { $gt: Date.now() }
+    });
+    if(!user) return res.status(400).json({message: "Token is invalid or has expired"});
+    //  If token has not expired, and there is user, set the new password
+    
+user.password = newPassword;
+    user.passwordResetToken = undefined; // Clear the reset token
+    user.passwordResetExpires = undefined; // Clear the token expiry
+    await user.save();
+    console.log("Password reset successful")
+    console.log(user)
+    
+    //  Log the user in, send JWT
+    const token = createToken(user._id);
+    res.cookie("token", token, {
+      withCredentials: true,
+      httpOnly: false,
+    });
+    res.status(200).json({success: true, message: "Password reset successful"});
+  }
+  catch (error) {
+    res.status(500).json({success: false, message: error.message});
+  }
+}
+
   
 
