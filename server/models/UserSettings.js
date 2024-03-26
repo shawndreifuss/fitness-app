@@ -44,9 +44,9 @@ const UserSettingsSchema = new mongoose.Schema({
   }
 });
 
-UserSettingsSchema.pre('save', function(next) {
-  this.updatedAt = new Date();
-  next();
-});
 
-module.exports = mongoose.model('UserSettings', UserSettingsSchema);
+
+const UserSettings = mongoose.model('UserSettings', UserSettingsSchema);
+
+module.exports = UserSettings;
+

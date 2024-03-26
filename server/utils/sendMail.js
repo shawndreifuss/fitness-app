@@ -6,8 +6,8 @@ const sendMail = async (options) => {
         port: process.env.SMTP_PORT,
         service: "gmail",
         auth:{
-            user: "dreifussshawn123@gmail.com",
-            pass: "bpgsunjnnrnzesxi",
+            user: "dreifussshawn@gmail.com",
+            pass: "cpvuhdspgwumonud",
         },
     });
 

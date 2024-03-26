@@ -4,7 +4,7 @@ const bcrypt = require("bcrypt");
 const { createToken } = require("../middleware/createToken");
 
 // Send Email Middleware
-const { sendMail } = require("../utils/sendMail");
+const  sendMail  = require("../utils/sendMail");
 
 
 
@@ -68,6 +68,7 @@ module.exports.ForgotPassword = async (req, res, next) => {
       const { email } = req.body;
       const user = await User.findOne({ email });
       if(!user) return res.status(400).json({message: "User does not exist"});
+    
       //  Create reset password token and save it to the user
       const resetToken = createToken();
       user.passwordResetToken = resetToken;
@@ -90,6 +91,7 @@ module.exports.ForgotPassword = async (req, res, next) => {
         user.passwordResetToken = undefined;
         user.passwordResetExpires = undefined;
         await user.save();
+        console.log(error)
         res.status(500).json({success: false, message: "There was an error sending the email. Try again later!"});
       }
     } catch (error) {
