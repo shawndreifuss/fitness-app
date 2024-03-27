@@ -1,13 +1,12 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-
-
+import { useUser } from '../../context/UserContext'
 
 
 const Navbar = () => {
 
-    // If user is logged in
-    const [user , setUser] = useState(false);
+  const { user } = useUser();
+  console.log(user)
 
   return (
     
@@ -46,13 +45,13 @@ const Navbar = () => {
     <Link to='/profile'>
     <button type="button" className="flex text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
         <span className="sr-only">Open user menu</span>
-        <img className="w-8 h-8 rounded-full" src="https://cdn5.vectorstock.com/i/1000x1000/43/94/default-avatar-photo-placeholder-icon-grey-vector-38594394.jpg" alt="user photo"/>
+        <img className="w-8 h-8 rounded-full" src={user.avatar} alt="user photo"/>
       </button>
       </Link>
       <div className=" hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow dark:bg-gray-700 dark:divide-gray-600" id="user-dropdown">
         <div className="px-4 py-3">
-          <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
-          <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">name@flowbite.com</span>
+          <span className="block text-sm text-gray-900 dark:text-white">user name</span>
+          <span className="block text-sm  text-gray-500 truncate dark:text-gray-400">user.email</span>
         </div>
         <ul className="py-2" aria-labelledby="user-menu-button">
           <li>
@@ -109,6 +108,9 @@ const Navbar = () => {
       </li>
       <li>
         <Link to="/shop" className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Shop</Link>
+      </li>
+      <li>
+        <Link to="/login"  className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Logout</Link>
       </li>
     </ul>
   </div>

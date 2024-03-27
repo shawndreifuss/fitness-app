@@ -1,18 +1,35 @@
-import React from "react";
+import React, { useState} from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../../context/UserContext";
+import BottomToast, {handleError, handleSuccess} from "../../../components/Toast/BottomToast";
 
 const EmailForm = ({ isOpen, setIsOpen, email, setEmail }) => {
   //  Use the forgotPassword function from context
   const { forgotPassword } = useUser();
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [message, setMessage] = useState("Password reset successful! Check your email for the reset link.");
+  const [error, setError] = useState("Password reset failed! Please try again.");
+
   const handleSubmit = async (event) => {
     event.preventDefault();
-    await forgotPassword(email);
+    const response = await forgotPassword(email);
+    if (response.success) {
+     handleSuccess(message);
+     setIsLoading(true);
+     setTimeout(() => {
+       location.href = "/login";
+       setIsLoading(false);
+     }, 3000);
+   } else {
+     handleError(error);
+   };
   };
   return (
     <>
-      <div className="absolute bottom-0 top-0 right-0 left-0 h-screen w-screen bg-white " />
+    {isLoading ? ( <div className="fixed inset-0 z-50 flex items-center justify-center w-full h-screen bg-black bg-opacity-50"></div> ) : (
+     <>
+     <div className="absolute bottom-0 top-0 right-0 left-0 h-screen w-screen bg-white " />
       <div
         className="overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full inset-0 h-modal md:h-full flex"
         aria-hidden="true"
@@ -102,6 +119,9 @@ const EmailForm = ({ isOpen, setIsOpen, email, setEmail }) => {
           </div>
         </div>
       </div>
+      </>
+    )}
+      <BottomToast />
     </>
   );
 };

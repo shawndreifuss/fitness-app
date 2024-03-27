@@ -1,10 +1,21 @@
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
-import axios from "axios";
+import { useUser } from "../../../context/UserContext";
+import { useParams } from "react-router-dom";
+import BottomToast, {handleError, handleSuccess} from "../../../components/Toast/BottomToast";
 
 const ForgotPassword = () => {
+  const { resetToken } = useParams();
+
+// forgotPassword function from context
+  const { resetPassword } = useUser();
+
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+
+  const [isLoading, setIsLoading] = useState(false);
+  const [message, setMessage] = useState("Password reset successful! ");
+  const [error, setError] = useState("Password reset failed! Please try again.");
 
   const handleResetPassword = async (event) => {
     event.preventDefault();
@@ -12,17 +23,19 @@ const ForgotPassword = () => {
       alert("Passwords do not match.");
       return;
     }
-    try {
-        const response = await axios.post('http://localhost:3001/api/auth/login/forgot-password/:resetToken', {
-          password
-        });
-        console.log(response.data);
-        alert("Password reset successfully."); // Replace this with better feedback in your app
-      } catch (error) {
-        console.error("Failed to reset password:", error);
-        alert("Failed to reset password."); // Replace this with better feedback in your app
-      }
-    };
+    const response = await resetPassword(password, resetToken);
+   if (response.success) {
+    handleSuccess(message);
+    setIsLoading(true);
+    setTimeout(() => {
+      location.href = "/";
+      setIsLoading(false);
+    }, 3000);
+  } else {
+    handleError(error);
+  };
+    }
+   
 
   return (
     <>
@@ -32,7 +45,7 @@ const ForgotPassword = () => {
             href="#"
             className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
           >
-            <img className="w-8 h-8 mr-2" src="/imgs/logo.png" alt="logo" />
+            <img className="w-16 h-16 mr-2" src="/imgs/logo.png" alt="logo" />
             Fitness App
           </Link>
           <div className="w-full p-6 bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md dark:bg-gray-800 dark:border-gray-700 sm:p-8">
@@ -66,7 +79,7 @@ const ForgotPassword = () => {
                   Confirm password
                 </label>
                 <input
-                  type="confirm-password"
+                  type="password"
                   name="confirm-password"
                   id="confirm-password"
                   placeholder="••••••••"
@@ -77,40 +90,18 @@ const ForgotPassword = () => {
                 />
               </div>
               <div className="flex items-start">
-                <div className="flex items-center h-5">
-                  <input
-                    id="newsletter"
-                    aria-describedby="newsletter"
-                    type="checkbox"
-                    className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
-                    required=""
-                  />
-                </div>
-                <div className="ml-3 text-sm">
-                  <label
-                    htmlFor="newsletter"
-                    className="font-light text-gray-500 dark:text-gray-300"
-                  >
-                    I accept the{" "}
-                    <Link
-                      className="font-medium text-primary-600 hover:underline dark:text-primary-500"
-                      href="#"
-                    >
-                      Terms and Conditions
-                    </Link>
-                  </label>
-                </div>
               </div>
               <button
                 type="submit"
                 className="w-full text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
               >
-                Reset passwod
+                Reset password
               </button>
             </form>
           </div>
         </div>
       </section>
+      <BottomToast />
     </>
   );
 };

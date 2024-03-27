@@ -1,8 +1,9 @@
-import React, { createContext, useContext, useReducer } from "react";
+import React, { createContext, useContext, useEffect, useReducer, useState } from "react";
 import axios from "axios";
 
 const UserContext = createContext();
-const initialState = {
+// Initial state that checks for persisted user data in localStorage
+const initialState = JSON.parse(localStorage.getItem('user')) || {
   isAuthenticated: false,
   user: null,
 };
@@ -20,13 +21,24 @@ function userReducer(state, action) {
 
 export const UserProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, initialState);
+  const [currentUser, setCurrentUser] = useState(null);
+
+  useEffect(() => {
+    verifyUser();
+  }, []); 
+  
+
 
   const verifyUser = async () => {
+    if(currentUser) return;
     try {
       const response = await axios.get("http://localhost:3001/api/auth/me", {
         withCredentials: true,
       });
       dispatch({ type: "SET_USER", payload: response.data.user });
+      setCurrentUser(response.data.user);
+      const user = response.data.user;
+      return user;
     } catch (error) {
       console.error("Error verifying user session:", error);
       // Optionally, handle the case where the user is not authenticated.
@@ -34,12 +46,15 @@ export const UserProvider = ({ children }) => {
   };
 
   const register = async (email, password) => {
+    if (state.isAuthenticated) return { success: true, user: state.user };
     try {
       const response = await axios.post(
         "http://localhost:3001/api/auth/register",
         { email, password }
       );
-      dispatch({ type: "SET_USER", payload: response.data.user }); // Assuming the API returns the user object upon registration
+      dispatch({ type: "SET_USER", payload: response.data.user });
+      localStorage.setItem('user', JSON.stringify(user)); 
+      return { success: true, user: state.user };
     } catch (error) {
       console.error("Error registering:", error);
       // Capture and dispatch registration error
@@ -48,13 +63,16 @@ export const UserProvider = ({ children }) => {
   };
 
   const login = async (email, password) => {
+    if (state.isAuthenticated) return { success: true, user: state.user };
+    let user = null;
     try {
       await axios.post(
         "http://localhost:3001/api/auth/login",
         { email, password },
         { withCredentials: true }
-      );
-      verifyUser(); // Verify user after successful login
+      );       
+      localStorage.setItem('user', JSON.stringify(user));
+      return { success: true, user: state.user };
     } catch (error) {
       console.error("Error logging in:", error);
       // Optionally, handle login error, e.g., by setting an error state or displaying a message to the user.
@@ -78,15 +96,27 @@ export const UserProvider = ({ children }) => {
         "http://localhost:3001/api/auth/forgot-password",
         { email }
       );
-      console.log(response.data.message);
+      return { success: true };
     } catch (error) {
       console.error("Error sending reset link:", error);
     }
   };
 
+  const resetPassword = async (password, resetToken) => {
+    try {
+      const response = await axios.post(
+        `http://localhost:3001/api/auth/login/forgot-password/${resetToken}`,
+        { password }
+      );
+      return { success: true, user: state.user };
+    } catch (error) {
+      console.error("Error resetting password:", error);
+    }
+  }
+
   return (
     <UserContext.Provider
-      value={{ ...state, dispatch, login, logout, register, forgotPassword }}
+      value={{ ...state, dispatch, login, logout, register, forgotPassword, resetPassword }}
     >
       {children}
     </UserContext.Provider>

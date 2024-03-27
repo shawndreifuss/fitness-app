@@ -2,16 +2,24 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../context/UserContext";
 // import Google from "./Buttons/Google";
-import { Button, Modal } from "flowbite-react";
+import { Button } from "flowbite-react";
 import EmailForm from "./components/EmailForm";
-import { HiOutlineExclamationCircle } from "react-icons/hi";
+import BottomToast,{handleError, handleSuccess}  from "../../components/Toast/BottomToast";
+
 
 const Login = () => {
   // Use the login function from context
   const { login } = useUser();
+  const [ isLoading, setIsLoading] = useState(false);
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  // Handle Error and Success with toast
+  const [message, setMessage] = useState("Login Successful! Welcome to the Fitness App!");
+  const [error, setError] = useState("Invalid Credentials! Please try again!");
+
+
 
   // Toggle modal
   const [isOpen, setIsOpen] = useState(false);
@@ -23,14 +31,24 @@ const Login = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     // Call the login function with email and password
-    await login(email, password);
-    //    rediret to Home page
-    window.location.href = "/";
+   const response = await login(email, password);
+   if (response.success) {
+    handleSuccess(message);
+    setIsLoading(true);
+    setTimeout(() => {
+      location.href = "/";
+      setIsLoading(false);
+    }, 3000);
+  } else {
+    handleError(error);
   };
+  }
+  
 
   return (
-    <>
-      {/*Reset Password  Modal */}
+    <> 
+    
+    {/*Reset Password  Modal */}
       {isOpen && (
         <EmailForm
           isOpen={isOpen}
@@ -41,7 +59,7 @@ const Login = () => {
       )}
 
       {/* Login Form */}
-      {!isOpen && (
+      { isLoading || !isOpen &&  (
       <div className="flex flex-col justify-center items-center px-6 pt-8 mx-auto md:h-screen pt:mt-0">
         <Link
           to="/"
@@ -161,6 +179,7 @@ const Login = () => {
         </div>
       </div>
       )}
+       <BottomToast message={message} error={error}/>
     </>
   );
 };

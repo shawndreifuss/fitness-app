@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useUser } from "../../context/UserContext"; // Adjust the import path as necessary
+import { useUser } from "../../context/UserContext"; 
+import BottomToast, {handleError, handleSuccess} from "../../components/Toast/BottomToast";
 // import Google from "./Buttons/Google";
 
 const Register = () => {
@@ -11,15 +12,31 @@ const Register = () => {
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [message, setMessage] = useState("Registration Successful! Welcome to the Fitness App!");
+  const [error, setError] = useState("Registration failed! Please try again!");
+
   const handleSubmit = async (event) => {
     event.preventDefault();
     // Call the login function with email and password
     register(email, password);
-//    rediret to Home page
-    window.location.href = "/";
+
+    const response = await register(email, password);
+   if (response.success) {
+    handleSuccess(message);
+    setIsLoading(true);
+    setTimeout(() => {
+      location.href = "/";
+      setIsLoading(false);
+    }, 3000);
+  } else {
+    handleError(error);
+  };
   };
 
   return (
+    <>
+    {!isLoading && 
     <div className="flex flex-col justify-center items-center px-6 pt-8 mx-auto md:h-screen pt:mt-0">
       <Link
         to="/"
@@ -133,6 +150,9 @@ const Register = () => {
         </div>
       </div>
     </div>
+    }
+    <BottomToast message={message} error={error} />
+    </>
   );
 };
 

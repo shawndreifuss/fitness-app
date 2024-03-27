@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext, useState } from 'react';
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 // Context Provider 
 import { UserProvider } from './context/UserContext';
@@ -16,7 +16,7 @@ function App() {
   const showNavbar = !['/login', '/register'].includes(location.pathname);
 
   return (
-    <UserProvider>
+    <UserProvider >
     {showNavbar && <Navbar />}
      <Routes>
        <Route path="/" element={<Home/>} />
