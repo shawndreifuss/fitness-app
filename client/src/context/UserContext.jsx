@@ -30,7 +30,6 @@ export const UserProvider = ({ children }) => {
 
 
   const verifyUser = async () => {
-    if(currentUser) return;
     try {
       const response = await axios.get("http://localhost:3001/api/auth/me", {
         withCredentials: true,
@@ -47,18 +46,18 @@ export const UserProvider = ({ children }) => {
 
   const register = async (email, password) => {
     if (state.isAuthenticated) return { success: true, user: state.user };
+    let user = null;
     try {
-      const response = await axios.post(
+      await axios.post(
         "http://localhost:3001/api/auth/register",
-        { email, password }
-      );
-      dispatch({ type: "SET_USER", payload: response.data.user });
-      localStorage.setItem('user', JSON.stringify(user)); 
+        { email, password },
+        { withCredentials: true }
+      );       
+      localStorage.setItem('user', JSON.stringify(user));
       return { success: true, user: state.user };
     } catch (error) {
-      console.error("Error registering:", error);
-      // Capture and dispatch registration error
-      dispatch({ type: "SET_ERROR", payload: error.response?.data?.message || "Registration failed." });
+      console.error("Error logging in:", error);
+      // Optionally, handle login error, e.g., by setting an error state or displaying a message to the user.
     }
   };
 
