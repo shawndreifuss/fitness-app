@@ -12,13 +12,4 @@ router.get('/logout', Logout);
 router.post('/oauth', OAuth);
 
 
-
-
-
-
-
-
-
-
-
 module.exports = router;

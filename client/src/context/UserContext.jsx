@@ -58,7 +58,6 @@ export const UserProvider = ({ children }) => {
 
   const register = async (email, password) => {
     if (state.isAuthenticated) return { success: true, user: state.user };
-    let user = null;
     try {
       const response = await axios.post(
         "http://localhost:3001/api/auth/register",
@@ -66,7 +65,8 @@ export const UserProvider = ({ children }) => {
         { withCredentials: true }
       );       
       
-      localStorage.setItem('user', JSON.stringify(user));
+      localStorage.setItem('user', JSON.stringify(response.data.user));
+      return { success: true, user: response.data.user};
     } catch (error) {
       console.error("Error logging in:", error);
 
@@ -83,14 +83,8 @@ export const UserProvider = ({ children }) => {
         { email, password },
         { withCredentials: true }
       );       
-      
-      if (response.data.success) {
        localStorage.setItem('user', JSON.stringify(response.data.user));
         return { success: true, user: response.data.user};
-      } else {
-        return { success: false, message: "Invalid Credentials! Please try again!"};
-      }
-      
     } catch (error) {
       localStorage.removeItem('user');
       console.error("Error logging in:", error);
