@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useUser } from "../../context/UserContext";
 // import Google from "./Buttons/Google";
@@ -8,6 +8,8 @@ import BottomToast,{handleError, handleSuccess}  from "../../components/Toast/Bo
 
 
 const Login = () => {
+
+  
   // Use the login function from context
   const { login } = useUser();
   const [ isLoading, setIsLoading] = useState(false);

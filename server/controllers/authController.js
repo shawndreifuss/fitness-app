@@ -1,4 +1,4 @@
-const { User, UserSettings } = require("../models");
+const { User, UserSettings, Fitness } = require("../models");
 const bcrypt = require("bcrypt");
 // JWT Token Middleware
 const { createToken } = require("../middleware/createToken");
@@ -14,13 +14,16 @@ module.exports.Register = async (req, res, next) => {
     const { email, password } = req.body;
     const existingUser = await User.findOne({ email }).lean(); // Use lean() for performance if you're only reading data
     if (existingUser) {
-      return res.status(400).json({ message: "User already exists" });
+      return res.status(400).json({ message: "User already exists please login" });
     }
     // Create User 
     const user = await User.create({ email, password, settings: null });
-    // Create User Settings Defaults
+    // Create User Settings and fitness Defaults
     const userSettings = await UserSettings.create({userId: user._id});
+    const fitness = await Fitness.create({userId: user._id});
+
     user.settings = userSettings._id;
+    user.fitness = fitness._id;
 
     // Save User
     await user.save();
@@ -44,18 +47,18 @@ module.exports.Login = async (req, res, next) => {
       const { email, password } = req.body;
       const user = await User.findOne({ email }).lean();
       if (!user) {
-        return res.status(400).json({ message: "User does not exist" });
+        return res.status(400).json({ message: "User does not exist please create an account" });
       }
-  
+
       const validatePassword = await bcrypt.compare(password, user.password);
-      if (!validatePassword) {
+      if (!validatePassword ) {
         return res.status(400).json({ message: "Invalid email or password" });
       }
   
       const token = createToken(user._id);
       res.cookie("token", token, { httpOnly: true, secure: process.env.NODE_ENV === 'production' });
   
-      return res.status(200).json({ success: true, message: "Welcome back " + user.email });
+      return res.status(200).json({ success: true, message: "Welcome back to the fitness App"  });
     } catch (error) {
       return res.status(500).json({ success: false, message: error.message });
     }

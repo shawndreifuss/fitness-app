@@ -24,7 +24,7 @@ const ForgotPassword = () => {
       return;
     }
     const response = await resetPassword(password, resetToken);
-   if (response.success) {
+   if (response) {
     handleSuccess(message);
     setIsLoading(true);
     setTimeout(() => {

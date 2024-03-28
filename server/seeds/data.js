@@ -20,6 +20,7 @@ db.once('open', async () => {
 
     await User.create(userSeeds);
     await UserSettings.create(userSettings);
+    
 
     console.log('all done!');
     process.exit(0);
