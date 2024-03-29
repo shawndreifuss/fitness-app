@@ -12,8 +12,8 @@ router.get('/logout', Logout);
 router.post('/oauth', OAuth);
 
 // Update User Settings 
-router.get('/user-settings/:userId', verifyToken, GetUserSettings);
-router.put('/user-settings/:userId/update-settings', verifyToken, UpdateUserSettings);
+router.get('/user-settings/:userId', GetUserSettings);
+router.put('/user-settings/:userId/update-settings', UpdateUserSettings);
 
 
 

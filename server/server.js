@@ -12,10 +12,13 @@ require('./config/db');
 //  Middleware 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({
-  origin:  'http://localhost:5173',
-  credentials: true
-}));
+// CORS configuration
+const corsOptions = {
+  origin: 'http://localhost:5173', // Allow only this origin to send requests
+  credentials: true, // Allow cookies to be sent with requests
+};
+
+app.use(cors(corsOptions));
 app.use(cookieParser());
 
 
