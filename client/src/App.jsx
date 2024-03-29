@@ -33,10 +33,10 @@ function App() {
       <Route path='/nutrition/*' element={<Nutrition/>} />
       <Route path='/shop/*' element={<Shop/>} />
       <Route path='/about/*' element={<About/>} />
-      <Route element={<ProtectedRoute />}>
+      {/* <Route element={<ProtectedRoute />}> */}
         <Route path="/profile/*" element={<Profile />} />
         {/* ... other protected routes */}
-      </Route>
+      {/* </Route> */}
       <Route path='/contact/*' element={<Contact/>} />
        <Route path="/*" element={<Navigate to="/" replace />} />  
     </Routes>

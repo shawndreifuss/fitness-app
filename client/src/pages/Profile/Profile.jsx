@@ -1,10 +1,21 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+import { useUser } from '../../context/UserContext';
+
+// Components
+import ProfilePage from "./components/ProfilePage";
+import UserSettings from "./components/UserSettings";
 
 const Profile = () => {
+
+  const { user } = useUser();  
   return (
-    <div className="flex justify-center items-center w-screen h-screen bg-[#4c1d95] text-center">
-      <span className="text-7xl">Profile</span>
-    </div>
+   <>
+   <Routes>
+    <Route path="/" element={<ProfilePage />} />
+    <Route path="/settings" element={<UserSettings user={user} />} />
+    </Routes>
+   </>
   );
 };
 

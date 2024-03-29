@@ -12,7 +12,7 @@ const  sendMail  = require("../utils/sendMail");
 module.exports.Register = async (req, res, next) => {
   try {
     const { email, password } = req.body;
-    const existingUser = await User.findOne({ email }).lean(); // Use lean() for performance if you're only reading data
+    const existingUser = await User.findOne({ email })  
     if (existingUser) {
       return res.status(400).json({ message: "User already exists please login" });
     }
@@ -29,9 +29,7 @@ module.exports.Register = async (req, res, next) => {
     await user.save();
     // Create Token
     const token = createToken(user._id);  
-    // Set secure: true in production for HTTPS
-    res.cookie("token", token, { httpOnly: true, secure: process.env.NODE_ENV === 'production' });
-    return res.status(201).json({ success: true, message: "Welcome " + user.email,  user: {
+   return res.status(201).json({ success: true, message: "Welcome " + user.email, token,  user: {
       ...user.toObject(), // Convert Mongoose model instance to a plain JavaScript object
       userSettings: userSettings.toObject() // Include user settings in the response
     }});
@@ -56,9 +54,8 @@ module.exports.Login = async (req, res, next) => {
       }
   
       const token = createToken(user._id);
-      res.cookie("token", token, { httpOnly: true, secure: process.env.NODE_ENV === 'production' });
-  
-      return res.status(200).json({ success: true, message: "Welcome back to the fitness App"  });
+      
+      return res.status(200).json({ success: true, token, message: "Welcome back to the fitness App"  });
     } catch (error) {
       return res.status(500).json({ success: false, message: error.message });
     }
@@ -126,11 +123,7 @@ user.password = newPassword;
     
     //  Log the user in, send JWT
     const token = createToken(user._id);
-    res.cookie("token", token, {
-      withCredentials: true,
-      httpOnly: false,
-    });
-    res.status(200).json({success: true, message: "Password reset successful"});
+    res.status(200).json({success: true, token, message: "Password reset successful"});
   }
   catch (error) {
     res.status(500).json({success: false, message: error.message});
@@ -159,7 +152,6 @@ module.exports.GetMe = async (req, res, next) => {
 
 //  Logout /api/auth/logout
 module.exports.Logout = async (req, res, next) => {
-  res.clearCookie('token');
   res.json({ message: 'Logout successful' });
 };
 
@@ -171,10 +163,7 @@ module.exports.OAuth = async (req, res, next) => {
     // If user exists, log them in
     if (existingUser) {
       const token = createToken(existingUser._id);
-      res.cookie("token", token, {
-        withCredentials: true,
-        httpOnly: false,
-      });
+      
       return res
         .status(200)
         .json({
@@ -187,10 +176,6 @@ module.exports.OAuth = async (req, res, next) => {
     } else {
       const user = await User.create({ email, password });
       const token = createToken(user._id);
-      res.cookie("token", token, {
-        withCredentials: true,
-        httpOnly: false,
-      });
       return res
         .status(201)
         .json({
@@ -204,3 +189,39 @@ module.exports.OAuth = async (req, res, next) => {
     res.status(500).json({ success: false, message: error.message });
   }
 };
+
+// Get user settings by userId  api/user-settings/:userId
+module.exports.GetUserSettings =  async (req, res) => {
+  try {
+    const userSettings = await UserSettings.findOne({ userId: req.params.userId }).populate('userId').lean();
+    if (!userSettings) {
+      return res.status(404).send();
+    }
+    res.send(userSettings);
+  } catch (error) {
+    res.status(500).send(error);
+  }
+}
+
+// Update Notification Settings api/user-settings/:userId/user-settings
+module.exports.UpdateUserSettings = async (req, res) => {
+
+  // Examples of what field and value could be field = notifications.email value = true
+  try {
+    const { field, value } = req.body; 
+    const update = { $set: { [field]: value } };
+
+    const userSettings = await UserSettings.findOneAndUpdate(
+      { userId: req.params.userId },
+      update,
+      { new: true, runValidators: true }
+    );
+
+    if (!userSettings) {
+      return res.status(404).send('User settings not found');
+    }
+    res.status(200).send(userSettings);
+  } catch (error) {
+    res.status(500).send(error.message);
+  }
+}

@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <>
       <header>
-        <nav className="fixed z-40 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 py-3 px-4">
+        <nav className="fixed left-0 top-0 right-0 z-40 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 py-3 px-4">
           <div className="flex justify-between items-center max-w-screen-2xl mx-auto">
             <div className="flex justify-start items-center">
               <Link to="/" className="flex mr-14">

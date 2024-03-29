@@ -33,72 +33,62 @@ function userReducer(state, action) {
 
 export const UserProvider = ({ children }) => {
   const [state, dispatch] = useReducer(userReducer, initialState);
-  const [currentUser, setCurrentUser] = useState(null);
 
   useEffect(() => {
+   
     verifyUser();
   }, []); 
+
+  const axiosInstance = axios.create({
+    baseURL: "http://localhost:3001/api/auth",
+    headers: { 'Content-Type': 'application/json' }
+  });
+
+  // Interceptor to include the token in every request
+  axiosInstance.interceptors.request.use(config => {
+    const token = localStorage.getItem('token');
+    console.log("Token:", token); // For debugging
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+      console.log("Sending request with Authorization header:", config.headers.Authorization); // For debugging
+    }
+    return config;
+  }, error => Promise.reject(error));
   
-
-
   const verifyUser = async () => {
-    
-    if (localStorage.getItem('user') === undefined || !localStorage.getItem('user')) return;
     try {
-      const response = await axios.get("http://localhost:3001/api/auth/me", {
-        withCredentials: true,
-      });
+      const response = await axiosInstance.get("/me");
       dispatch({ type: "SET_USER", payload: response.data.user });
-      setCurrentUser(response.data.user);
     } catch (error) {
       console.error("Error verifying user session:", error);
-      // Optionally, handle the case where the user is not authenticated.
     }
   };
 
-  const register = async (email, password) => {
-    if (state.isAuthenticated) return { success: true, user: state.user };
+  const authenticateUser = async (userData, endpoint) => {
     try {
-      const response = await axios.post(
-        "http://localhost:3001/api/auth/register",
-        { email, password },
-        { withCredentials: true }
-      );       
-      
-      localStorage.setItem('user', JSON.stringify(response.data.user));
-      return { success: true, user: response.data.user};
+      const response = await axiosInstance.post(`/${endpoint}`, userData);
+      console.log("Response from", endpoint, ":", response.data);
+      localStorage.setItem('token', response.data.token); // Store new token
+      dispatch({ type: "SET_USER", payload: response.data.user });
+      return { success: true, user: response.data.user };
     } catch (error) {
-      console.error("Error logging in:", error);
-
-     return { message: "User Exists! Please login!"}
-     
+      console.error(`Error during ${endpoint}:`, error);
+      return { success: false, message: error.response.data.message };
     }
   };
 
-  const login = async (email, password) => {
-    if (state.isAuthenticated) return { success: true, user: state.user };
-    try {
-      const response = await axios.post(
-        "http://localhost:3001/api/auth/login",
-        { email, password },
-        { withCredentials: true }
-      );       
-       localStorage.setItem('user', JSON.stringify(response.data.user));
-        return { success: true, user: response.data.user};
-    } catch (error) {
-      localStorage.removeItem('user');
-      console.error("Error logging in:", error);
-      // Optionally, handle login error, e.g., by setting an error state or displaying a message to the user.
-    }
-  };
+  const login = (email, password) => authenticateUser({ email, password }, 'login');
+  const register = (email, password) => authenticateUser({ email, password }, 'register');
+
 
   const logout = async () => {
     try {
-      await axios.get("http://localhost:3001/api/auth/logout", {
+      await axiosInstance.get("http://localhost:3001/api/auth/logout", {
         withCredentials: true,
       });
       localStorage.removeItem('user');
       dispatch({ type: "LOGOUT" });
+
     } catch (error) {
       console.error("Error during logout:", error);
     }
@@ -106,34 +96,47 @@ export const UserProvider = ({ children }) => {
 
   const forgotPassword = async (email) => {
     try {
-      const response = await axios.post(
-        "http://localhost:3001/api/auth/forgot-password",
-        { email }
-      );
-      return { success: true};
+      await axiosInstance.post("/forgot-password", { email });
+      console.log("Reset link sent to email.");
+      return { success: true, message: "Reset link sent to email." };
     } catch (error) {
       console.error("Error sending reset link:", error);
+      return { success: false, message: error.response.data.message };
     }
   };
 
   const resetPassword = async (password, resetToken) => {
-
     try {
-      const response = await axios.post(
-        `http://localhost:3001/api/auth/login/forgot-password/${resetToken}`,
-        { password }
-      );
-       const user = response.data.user;
-      localStorage.setItem('user', JSON.stringify(user));
-      return { success: true, user: user};
+      const response = await axiosInstance.post(`/reset-password/${resetToken}`, { password });
+      // Assuming the API also returns a new authentication token upon password reset
+      localStorage.setItem('token', response.data.token);
+      dispatch({ type: "SET_USER", payload: response.data.user });
+      console.log("Password reset successful.");
+      return { success: true, user: response.data.user };
     } catch (error) {
       console.error("Error resetting password:", error);
+      return { success: false, message: error.response.data.message };
     }
-  }
+  };
+
+  const updateSettings = async (settings, userId) => {
+    try {
+      const response = await axiosInstance.put(`/user-settings/${userId}`, settings);
+      // Assuming the API returns the updated user settings
+      const updatedUser = { ...state.user, settings: response.data };
+      dispatch({ type: "SET_USER", payload: updatedUser });
+      localStorage.setItem('user', JSON.stringify(updatedUser)); // Update stored user information
+      console.log("User settings updated successfully.");
+      return { success: true, user: updatedUser };
+    } catch (error) {
+      console.error("Error updating user settings:", error);
+      return { success: false, message: error.response.data.message };
+    }
+  };
 
   return (
     <UserContext.Provider
-      value={{ ...state, dispatch, login, logout, register, forgotPassword, resetPassword }}
+      value={{ ...state, dispatch, login, logout, register, forgotPassword, resetPassword, updateSettings }}
     >
       {children}
     </UserContext.Provider>

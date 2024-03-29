@@ -7,9 +7,16 @@ const UserSettingsSchema = new mongoose.Schema({
     required: true
   },
   notifications: {
-    email: { type: Boolean, default: true },
+    email: { type: Boolean, default: false },
     sms: { type: Boolean, default: false }, 
     push: { type: Boolean, default: false },
+    reminders: { type: Boolean, default: false },
+  },
+  shippingAddress: {
+    address: { type: String, default: '' },
+    city: { type: String, default: '' },
+    state: { type: String, default: '' },
+    zip: { type: String, default: '' },
   },
   workoutSettings: {
     reminders: { type: Boolean, default: true },

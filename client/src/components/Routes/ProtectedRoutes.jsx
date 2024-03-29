@@ -21,7 +21,7 @@ function usePublicRouteProtection() {
 
  useEffect(() => {
     if (user) {
-      navigate('/home', { replace: true });
+      navigate('/', { replace: true });
     }
   }, [user, navigate]);
 }
