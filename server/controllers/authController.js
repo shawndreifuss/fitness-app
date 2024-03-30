@@ -56,19 +56,18 @@ module.exports.Login = async (req, res, next) => {
     }
 
     const validatePassword = await bcrypt.compare(password, user.password);
+    console.log(password, user.password);
     if (!validatePassword) {
       return res.status(400).json({ message: "Invalid email or password" });
     }
 
     const token = createToken(user._id);
 
-    return res
-      .status(200)
-      .json({
-        success: true,
-        token,
-        message: "Welcome back to the fitness App",
-      });
+    return res.status(200).json({
+      success: true,
+      token,
+      message: "Welcome back to the fitness App",
+    });
   } catch (error) {
     return res.status(500).json({ success: false, message: error.message });
   }
@@ -108,12 +107,10 @@ module.exports.ForgotPassword = async (req, res, next) => {
       user.passwordResetExpires = undefined;
       await user.save();
       console.log(error);
-      res
-        .status(500)
-        .json({
-          success: false,
-          message: "There was an error sending the email. Try again later!",
-        });
+      res.status(500).json({
+        success: false,
+        message: "There was an error sending the email. Try again later!",
+      });
     }
   } catch (error) {
     res.status(500).json({ success: false, message: error.message });
@@ -155,6 +152,35 @@ module.exports.ChangePassword = async (req, res, next) => {
   }
 };
 
+// Update user password with current password /api/auth/:userId/update-password
+module.exports.UpdateUserPassword = async (req, res) => {
+  try {
+    const { currentPassword, newPassword } = req.body;
+    const userId = req.params.userId;
+
+    const user = await User.findById(userId);
+    if (!user) {
+      return res.status(404).send("User not found");
+    }
+
+    const isMatch = await bcrypt.compare(currentPassword, user.password);
+    if (!isMatch) {
+      return res.status(400).send("Current password is incorrect");
+    }
+
+    // Directly hash the new password with bcrypt to avoid double hashing
+    const saltRounds = 10; // Use the same salt rounds as in your middleware
+    const hashedNewPassword = await bcrypt.hash(newPassword, saltRounds);
+
+    // Update the user's password field directly without triggering the 'save' middleware
+    await User.findByIdAndUpdate(userId, { $set: { password: hashedNewPassword } });
+
+    res.send("Password updated successfully");
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("An error occurred while updating password");
+  }
+};
 // Get Current User - GET /api/auth/me
 module.exports.GetMe = async (req, res, next) => {
   try {
@@ -225,15 +251,12 @@ module.exports.GetUserSettings = async (req, res) => {
 };
 
 module.exports.UpdateUserSettings = async (req, res) => {
-  
   try {
     // Log the incoming request body for debugging
     console.log("req.body", req.body);
 
     // Destructure field and value from the request body
     const { field, value } = req.body;
-
-    
 
     console.log("field", field, "value", value);
 
@@ -245,9 +268,8 @@ module.exports.UpdateUserSettings = async (req, res) => {
       { userId: req.params.userId }, // Ensure the userId param is correctly passed from the client
       update,
       { new: true, runValidators: true }
-      
     );
-console.log("userSettings", userSettings)
+    console.log("userSettings", userSettings);
     // Check if the user settings document was found and updated
     if (!userSettings) {
       return res.status(404).send("User settings not found");

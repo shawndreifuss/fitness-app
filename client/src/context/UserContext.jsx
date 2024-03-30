@@ -62,6 +62,7 @@ export const UserProvider = ({ children }) => {
   );
 
   const verifyUser = async () => {
+    if (!localStorage.getItem("token")) return;
     try {
       const response = await axiosInstance.get("/me");
       dispatch({ type: "SET_USER", payload: response.data.user });
@@ -92,10 +93,24 @@ export const UserProvider = ({ children }) => {
       await axiosInstance.get("http://localhost:3001/api/auth/logout", {
         withCredentials: true,
       });
-      localStorage.removeItem("user");
+      localStorage.removeItem("token");
       dispatch({ type: "LOGOUT" });
     } catch (error) {
       console.error("Error during logout:", error);
+    }
+  };
+
+  const updateUserPassword = async (currentPassword, newPassword, userId) => {
+    try {
+      await axiosInstance.patch(`/${userId}/update-password`, {
+        currentPassword,
+        newPassword,
+        userId,
+      });
+      return { success: true, message: "Password updated successfully.", user: state.user};
+    } catch (error) {
+      console.error("Error updating password:", error);
+      return { success: false, message: error.response.data.message };
     }
   };
 
@@ -129,8 +144,9 @@ export const UserProvider = ({ children }) => {
 
   const getUserSettings = async (userId) => {
     try {
-      const response = await axiosInstance.get(`/user-settings/${userId}`);
-      return response.data.settings;
+      const response = await axios({
+        url: `http://localhost:3001/api/auth/user-settings/${userId}`})
+      return response.data
     } catch (error) {
       console.error("Error retrieving user settings:", error);
       return null;
@@ -141,20 +157,12 @@ export const UserProvider = ({ children }) => {
     const settingsUpdate = {
       value,field, // Correctly use computed property names
     };
-  
-    console.log("Sending settings update:", settingsUpdate);
-  
     try {
       const response = await axiosInstance.put(
         `/user-settings/${userId}/update-settings`,
         settingsUpdate , // Pass the payload to the API
       );
-  
-      console.log("User settings updated successfully:", response);
-  console.log("User settings updated successfully:", response);
       if (response.data) {
-        // Update local state with the updated settings
-        // Assume response.data.settings contains the updated settings information
         const updatedUser = { ...state.user, settings: response.data.settings };
   
         dispatch({ type: "SET_USER", payload: updatedUser });
@@ -186,6 +194,7 @@ export const UserProvider = ({ children }) => {
         register,
         forgotPassword,
         resetPassword,
+        updateUserPassword,
         updateSettings,
         getUserSettings,
       }}
