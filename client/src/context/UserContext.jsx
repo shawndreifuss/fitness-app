@@ -7,6 +7,8 @@ import React, {
 } from "react";
 import axios from "axios";
 
+import { updateUserAddress } from '../context/actions'
+
 const UserContext = createContext();
 
 // Helper function to safely parse JSON from localStorage
@@ -44,7 +46,7 @@ export const UserProvider = ({ children }) => {
     verifyUser();
   }, []);
 
-  const axiosInstance = axios.create({
+ const axiosInstance = axios.create({
     baseURL: "http://localhost:3001/api/auth",
     headers: { "Content-Type": "application/json" },
   });
@@ -197,6 +199,7 @@ export const UserProvider = ({ children }) => {
         updateUserPassword,
         updateSettings,
         getUserSettings,
+        updateUserAddress,
       }}
     >
       {children}
@@ -205,3 +208,4 @@ export const UserProvider = ({ children }) => {
 };
 
 export const useUser = () => useContext(UserContext);
+

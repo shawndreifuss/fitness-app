@@ -13,10 +13,11 @@ const UserSettingsSchema = new mongoose.Schema({
     reminders: { type: Boolean, default: false },
   },
   shippingAddress: {
-    address: { type: String, default: '' },
+    street: { type: String, default: '' },
     city: { type: String, default: '' },
     state: { type: String, default: '' },
     zip: { type: String, default: '' },
+    country: { type: String, default: '' },
   },
   workoutSettings: {
     reminders: { type: Boolean, default: true },
