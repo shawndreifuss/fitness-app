@@ -16,27 +16,27 @@ const Register = () => {
   const [confirmPassword, setConfirmPassword] = useState("");
 
   const [isLoading, setIsLoading] = useState(false);
-  const [message, setMessage] = useState(
-    "Registration Successful! Welcome to the Fitness App!"
-  );
-  const [error, setError] = useState("Registration failed! Please try again!");
+  // Handle Error and Success with toast
+  const [message, setMessage] = useState("Hi! Welcome to the Fitness App!");
+  const [error, setError] = useState("Invalid Credentials! Please try again!");
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     const response = await register(email, password);
-    console.log(response.success);
     if (response.success) {
       handleSuccess(message);
       setIsLoading(true);
       setTimeout(() => {
-        location.href = "/";
+        location.href = "/profile";
         setIsLoading(false);
       }, 3000);
     } else {
       handleError(error);
     };
     }
+
+    
 
   return (
     <>

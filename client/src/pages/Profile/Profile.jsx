@@ -12,7 +12,7 @@ const Profile = () => {
   return (
    <>
    <Routes>
-    <Route path="/" element={<ProfilePage />} />
+    <Route path="/" element={<ProfilePage user={user}/>} />
     <Route path="/settings" element={<UserSettings user={user} />} />
     </Routes>
    </>

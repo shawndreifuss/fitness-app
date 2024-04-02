@@ -1,4 +1,4 @@
-const { User, UserSettings, Fitness } = require("../models");
+const { User, UserSettings, Fitness, Workout,  } = require("../models");
 const bcrypt = require("bcrypt");
 // JWT Token Middleware
 const { createToken } = require("../middleware/createToken");
@@ -21,9 +21,11 @@ module.exports.Register = async (req, res, next) => {
     // Create User Settings and fitness Defaults
     const userSettings = await UserSettings.create({ userId: user._id });
     const fitness = await Fitness.create({ userId: user._id });
+    const workout = await Workout.create({ userId: user._id });
 
     user.settings = userSettings._id;
-    user.fitness = fitness._id;
+    user.fitnessStats = fitness._id;
+    user.workout = workout._id;
 
     // Save User
     await user.save();
@@ -35,7 +37,8 @@ module.exports.Register = async (req, res, next) => {
       token,
       user: {
         ...user.toObject(), // Convert Mongoose model instance to a plain JavaScript object
-        userSettings: userSettings.toObject(), // Include user settings in the response
+        userSettings: userSettings.toObject(),
+        fitnessStats: fitness.toObject()
       },
     });
   } catch (error) {
@@ -56,7 +59,6 @@ module.exports.Login = async (req, res, next) => {
     }
 
     const validatePassword = await bcrypt.compare(password, user.password);
-    console.log(password, user.password);
     if (!validatePassword) {
       return res.status(400).json({ message: "Invalid email or password" });
     }
@@ -184,7 +186,7 @@ module.exports.UpdateUserPassword = async (req, res) => {
 // Get Current User - GET /api/auth/me
 module.exports.GetMe = async (req, res, next) => {
   try {
-    const user = await User.findById(req.user.id).populate("settings").lean();
+    const user = await User.findById(req.user.id).populate("settings").populate("fitnessStats").lean();
     if (!user) {
       return next("User not found");
     }

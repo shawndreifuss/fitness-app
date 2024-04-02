@@ -32,13 +32,12 @@ const Login = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    // Call the login function with email and password
    const response = await login(email, password);
    if (response.success) {
     handleSuccess(message);
     setIsLoading(true);
     setTimeout(() => {
-      location.href = "/";
+      location.href = "/profile";
       setIsLoading(false);
     }, 3000);
   } else {

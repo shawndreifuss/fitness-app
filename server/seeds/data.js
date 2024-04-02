@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const db = mongoose.connection; // This is the correct way to access the connection object
-const { User, UserSettings } = require('../models');
+const { User, UserSettings, Fitness, Workout } = require('../models');
 const userSeeds = require('./user.json');
 const userSettings = require('./userSettings.json');
 // Assuming this function is defined in a file named cleanDB.js
@@ -18,8 +18,10 @@ db.once('open', async () => {
     .then(() => console.log('Database cleanup completed successfully.'))
     .catch(err => console.error('Database cleanup failed:', err));
 
-    await User.create(userSeeds);
-    await UserSettings.create(userSettings);
+    await User.create();
+    await UserSettings.create();
+    await Fitness.create();
+    await Workout.create();
     
 
     console.log('all done!');

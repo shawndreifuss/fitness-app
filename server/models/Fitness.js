@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 
 const fitnessSchema = new mongoose.Schema({
+  // Your schema definition remains unchanged
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
+
   },
   age: {
     type: Number,
@@ -28,7 +30,7 @@ const fitnessSchema = new mongoose.Schema({
   preferences: {
     dietary: {
       type: String,
-      enum: ["vegetarian", "vegan", "ketogenic", "paleo", "none"],
+      enum: ["vegetarian", "vegan", "keto", "paleo", "none"],
       default: "none",
     },
     workoutLocation: {
@@ -62,22 +64,32 @@ const fitnessSchema = new mongoose.Schema({
       default: "lose weight",
     },
   ],
-  progressPhotos: [{ type: String }], // Array of image URLs
+  progressPhotos: [{ type: String }],
   healthMetrics: {
     bodyFatPercentage: { type: Number },
     restingHeartRate: { type: Number },
-    bloodPressure: { type: String }, // Example: "120/80"
+    bloodPressure: { type: String },
   },
-  dietaryRestrictions: [{ type: String }], // Example: ["gluten-free", "lactose intolerant"]
+  dietaryRestrictions: [{ type: String }],
   workoutPreferences: {
-    duration: { type: Number, default: 30 }, // In minutes
+    duration: { type: Number, default: 30 },
     intensity: {
       type: String,
       enum: ["low", "medium", "high"],
       default: "medium",
     },
-    activities: [{ type: String }], // Example: ["cycling", "swimming"]
+    activities: [{ type: String }],
   },
-});
+  workoutHistory: [
+    {
+      date: { type: Date, default: Date.now },
+      duration: { type: Number, default: 30 },
+      activity: { type: String },
+      caloriesBurned: { type: Number },
+    },
+  ],
+}, { collection: 'fitness' }); // Specify the collection name here
 
-module.exports = mongoose.model("Fitness", fitnessSchema);
+const Fitness = mongoose.model("Fitness", fitnessSchema);
+
+module.exports = Fitness;

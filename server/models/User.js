@@ -2,7 +2,17 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 
 const userSchema = new mongoose.Schema({
-  name: {
+  username: {
+    type: String,
+    min: 3,
+    max: 255,
+  },
+  firstName: {
+    type: String,
+    min: 3,
+    max: 255,
+  },
+  lastName: {
     type: String,
     min: 3,
     max: 255,
@@ -20,23 +30,37 @@ const userSchema = new mongoose.Schema({
   }, 
   phone: {
     type: String,
-    default: "",
+    default: "7605555555",
   },
   avatar: {
     type: String,
-    default: "https://m.media-amazon.com/images/I/41jLBhDISxL.jpg",
+    default: "https://img.freepik.com/free-photo/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1711929600&semt=ais",
+  },
+  goal: {
+    type: String,
+    default: "lose weight",
   },
   settings: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "UserSettings",
   },
-  fitness: {
+  fitnessStats: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Fitness",
   },
   favorites: {
     type: Array,
-    default: [],
+    Workout: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Workout",
+    },
+    likes: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Workout",
+    },
+    default: [
+      
+    ],
   },
   isAdmin: {
     type: Boolean,
@@ -62,4 +86,6 @@ userSchema.pre("save", async function (next) {
   next();
 });
 
-module.exports = mongoose.model("User", userSchema);
+const User = mongoose.model("User", userSchema);
+
+module.exports = User;

@@ -1,4 +1,4 @@
-import React, { useEffect} from 'react';
+import React, { useEffect, useState} from 'react';
 import {  useNavigate, Outlet } from 'react-router-dom';
 import { useUser } from '../../context/UserContext'; // Import your user context
 
@@ -6,10 +6,12 @@ import { useUser } from '../../context/UserContext'; // Import your user context
 function useAuthProtection() {
   const navigate = useNavigate();
   const { user } = useUser();
+  const [token, setToken] = useState(localStorage.getItem('token'));
+
 
   useEffect(() => {
-    if (!user) {
-      navigate('/login', { replace: true });
+    if (!user && !token) {
+      navigate('/', { onReplace: true});
     }
   }, [user, navigate]);
 }
@@ -21,7 +23,9 @@ function usePublicRouteProtection() {
 
  useEffect(() => {
     if (user) {
-      navigate('/', { replace: true });
+      setTimeout(() => {
+        navigate('/profile', { replace: true });
+      }, 3000);
     }
   }, [user, navigate]);
 }
