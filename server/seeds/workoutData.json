@@ -1,0 +1,6752 @@
+[
+  {
+    "date": "2024-04-02T20:17:04.878Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "cardio",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for cardio",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a cardio workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "arms",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for arms",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a arms workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "legs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for legs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a legs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "abs",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for abs",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a abs workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "full body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for full body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a full body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "back",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for back",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a back workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "chest",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for chest",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a chest workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "shoulders",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for shoulders",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a shoulders workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "core",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for core",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a core workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "upper body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for upper body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a upper body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "lower body",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for lower body",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a lower body workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.879Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "flexibility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for flexibility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a flexibility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "balance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for balance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a balance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle endurance",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle endurance",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle endurance workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle strength",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle strength",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle strength workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle power",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle power",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle power workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle speed",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle speed",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle speed workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle agility",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle agility",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle agility workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle coordination",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle coordination",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle coordination workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 1 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 2 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 3 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 4 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 5 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 6 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 7 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 8 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 9 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  },
+  {
+    "date": "2024-04-02T20:17:04.880Z",
+    "category": "muscle reaction time",
+    "coach": "660b97ad5884c97ef470a494",
+    "thumbnail": "https://example.com/thumbnail.jpg",
+    "images": [
+      "https://example.com/image1.jpg",
+      "https://example.com/image2.jpg"
+    ],
+    "exercises": [
+      {
+        "name": "Exercise 10 for muscle reaction time",
+        "type": "strength",
+        "duration": 30,
+        "intensity": "medium",
+        "sets": 3,
+        "reps": 12,
+        "distance": 5,
+        "difficulty": "beginner",
+        "notes": "This is a sample exercise for a workout."
+      }
+    ],
+    "difficulty": "intermediate",
+    "notes": "These are general notes for a muscle reaction time workout."
+  }
+]

@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react';
+import _ from 'lodash';
+import Hero from './components/Hero';
+import WorkoutCard from './components/WorkoutCard';
 
-const Workouts = () => {
-  return (
-    <div className="flex justify-center items-center w-screen h-screen bg-orange-500 text-center">
-    <span className="text-7xl">Workouts</span>
-  </div>
-  )
+function Workouts() {
+  const [searchTerm, setSearchTerm] = useState('');
+
+    return (
+        <div>
+            <Hero searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+            <WorkoutCard searchTerm={searchTerm} />
+        </div>
+    );
 }
 
-export default Workouts
+
+
+export default Workouts;

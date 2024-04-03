@@ -6,6 +6,16 @@ const workoutSchema = new mongoose.Schema({
     default: Date.now,
     required: true
   },
+  category: {
+    type: String,
+    enum: ['cardio', 'arms', 'legs', 'abs', 'full body', 'back', 'chest', 'shoulders', 'core', 'upper body', 'lower body', 'strength', 'flexibility', 'balance', 'endurance', 'power', 'speed', 'agility', 'coordination', 'reaction time', 'muscle endurance', 'muscle strength', 'muscle power', 'muscle speed', 'muscle agility', 'muscle coordination', 'muscle reaction time'],
+    required: true
+  },
+  thumbnail: {
+    type: String,
+    required: true
+  },
+  images: [String],
   exercises: [{
     name: {
       type: String,
@@ -17,12 +27,20 @@ const workoutSchema = new mongoose.Schema({
       required: true
     },
     duration: {
-      type: Number, // Duration in minutes
+      type: Number,
       required: true
     },
     intensity: {
       type: String,
       enum: ['low', 'medium', 'high'],
+      required: true
+    },
+    sets: Number, // For strength exercises
+    reps: Number, // For strength exercises
+    distance: Number, // For cardio exercises, in kilometers or miles
+    difficulty: {
+      type: String,
+      enum: ['beginner', 'intermediate', 'advanced'],
       required: true
     },
     likes: {
@@ -36,8 +54,8 @@ const workoutSchema = new mongoose.Schema({
     notes: String
   }],
   completed: {
-    type: Boolean,
-    default: false
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
   },
   coach: {
     type: mongoose.Schema.Types.ObjectId,

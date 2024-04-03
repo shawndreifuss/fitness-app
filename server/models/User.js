@@ -58,9 +58,10 @@ const userSchema = new mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: "Workout",
     },
-    default: [
-      
-    ],
+    dislikes: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Workout",
+    }
   },
   isAdmin: {
     type: Boolean,
