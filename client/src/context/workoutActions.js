@@ -96,7 +96,8 @@ export async function findWorkoutsByName(name) {
   }
 }
 
-export async function searchWorkouts(searchTerm, category = "all", difficulty = "") {
+export async function searchWorkouts(searchTerm, category = "", difficulty = "") {
+  console.log(searchTerm, category, difficulty);
   try {
     // Construct the query parameters string
     const params = new URLSearchParams({

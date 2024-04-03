@@ -37,8 +37,8 @@ const difficulties = [
   { label: "Advanced", value: "advanced" },
 ];
 
-export function WorkoutCard() {
-  const [searchTerm, setSearchTerm] = useState("");
+export function WorkoutCard({searchTerm, setSearchTerm}) {
+  
   const [selectedCategory, setSelectedCategory] = useState( "all");
   const [selectedDifficulty, setSelectedDifficulty] = useState(
     "");
@@ -76,13 +76,7 @@ export function WorkoutCard() {
 
   return (
     <section className="grid min-h-screen place-items-center p-8 pb-0">
-      <input
-        type="text"
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-        placeholder="Search workouts..."
-        className="search-input"
-      />
+     
 
       {/* Corrected Difficulty and Categories Tabs */}
       <Tabs value={selectedDifficulty}
