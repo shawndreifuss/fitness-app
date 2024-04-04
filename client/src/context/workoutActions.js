@@ -63,16 +63,7 @@ export async function updateWorkoutById(id, workoutDetails) {
   }
 }
 
-export async function findWorkoutsByCategory(category) {
-  try {
-    const response = await axiosInstance.get(`/category/${category}`);
-    console.log(response.data);
-    return response.data;
-  } catch (error) {
-    console.error('Error finding workouts by category:', error.response.data);
-    throw error;
-  }
-}
+
 
 export async function findWorkoutsByCoach(coachId) {
   try {
@@ -96,13 +87,13 @@ export async function findWorkoutsByName(name) {
   }
 }
 
-export async function searchWorkouts(searchTerm, category = "", difficulty = "") {
-  console.log(searchTerm, category, difficulty);
+export async function searchWorkouts(searchTerm, muscle = "", difficulty = "") {
+  console.log(searchTerm, muscle, difficulty);
   try {
     // Construct the query parameters string
     const params = new URLSearchParams({
-      q: searchTerm, // Now uses 'q' for the search term
-      category: category !== "all" ? category : "", // Only add category if it's not 'all'
+      q: searchTerm, // Uses 'q' for the search term
+      muscle, // Add muscle; can be empty if not specified
       difficulty // Add difficulty; it's okay if this is an empty string
     }).toString();
 

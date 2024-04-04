@@ -4,29 +4,7 @@ import { Button, Typography } from "@material-tailwind/react";
 function Hero() {
   return (
     <>
-    <div class="container">
-        <div class="grid">
-            <section>
-                <hgroup>
-                    <h2>Fitness Journey</h2>
-                    <h3>Start Your Transformation Today</h3>
-                </hgroup>
-                <p>Published on July 15, 2024</p>
-                <figure>
-                    <img src="https://via.placeholder.com/1024x768" alt="Fitness Lifestyle" />
-                    <figcaption>Photo by <a href="https://unsplash.com" target="_blank">Unsplash</a></figcaption>
-                </figure>
-                <article>
-                    <h3>Why Fitness Matters</h3>
-                    <p>The importance of fitness cannot be understated in today's lifestyle...</p>
-                    <h3>Workout Routines</h3>
-                    <p>Discover workouts that can transform your physique and boost your stamina...</p>
-                    <h3>Nutrition and Diet</h3>
-                    <p>What you eat is just as important as your workout...</p>
-                </article>
-            </section>
-        </div>
-    </div>
+    
 
     <aside class="sidebar">
         <section aria-label="Latest News">

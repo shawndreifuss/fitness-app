@@ -1,66 +1,71 @@
 const mongoose = require('mongoose');
 
+const detailSchema = new mongoose.Schema({
+  duration: Number,
+  intensity: {
+    type: String,
+    enum: ['low', 'medium', 'high']
+  },
+  sets: Number,
+  reps: Number,
+  distance: String,
+  benefits: String,
+  instructions: [String],
+  restPeriod: Number,
+  tempo: String,
+});
+
 const workoutSchema = new mongoose.Schema({
   date: {
     type: Date,
     default: Date.now,
     required: true
   },
-  category: {
+  name: String,
+  description: String,
+  primaryMuscles: [String],
+  secondaryMuscles: [String],
+  mechanic: {
     type: String,
-    enum: ['cardio', 'arms', 'legs', 'abs', 'full body', 'back', 'chest', 'shoulders', 'core', 'upper body', 'lower body', 'strength', 'flexibility', 'balance', 'endurance', 'power', 'speed', 'agility', 'coordination', 'reaction time', 'muscle endurance', 'muscle strength', 'muscle power', 'muscle speed', 'muscle agility', 'muscle coordination', 'muscle reaction time'],
-    required: true
+    enum: ['compound', 'isolation']
   },
-  thumbnail: {
+  type: {
     type: String,
-    required: true
+    enum: ['cardio', 'strength', 'flexibility', 'balance', 'endurance', 'power', 'speed', 'agility', 'coordination', 'reaction time']
   },
-  images: [String],
-  exercises: [{
-    name: {
-      type: String,
-      required: true
-    },
-    type: {
-      type: String,
-      enum: ['cardio', 'strength', 'flexibility', 'balance'],
-      required: true
-    },
-    duration: {
-      type: Number,
-      required: true
-    },
-    intensity: {
-      type: String,
-      enum: ['low', 'medium', 'high'],
-      required: true
-    },
-    sets: Number, // For strength exercises
-    reps: Number, // For strength exercises
-    distance: Number, // For cardio exercises, in kilometers or miles
-    difficulty: {
-      type: String,
-      enum: ['beginner', 'intermediate', 'advanced'],
-      required: true
-    },
-    likes: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User'
-    },
-    dislikes: {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User'
-    },
-    notes: String
-  }],
-  completed: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: 'User'
-  },
+  equipment: [String],
+  equipmentDetails: String,
   coach: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
-  }
+  },
+  thumbnail: String,
+  images: [String],
+  details: [detailSchema],
+  difficulty: {
+    type: String,
+    enum: ['beginner', 'intermediate', 'advanced']
+  },
+  skillLevel: {
+    type: String,
+    enum: ['novice', 'intermediate', 'advanced', 'expert']
+  },
+  targetZone: {
+    type: String,
+    enum: ['upper body', 'lower body', 'full body']
+  },
+  caloriesBurnedPerMin: Number,
+  recommendedEnvironment: {
+    type: String,
+    enum: ['indoor', 'outdoor', 'gym', 'home', 'anywhere']
+  },
+  completed: Boolean,
+  video: [String],
+  userFeedback: {
+    rating: Number,
+    comments: [String],
+  },
+  tags: [String],
 }, { timestamps: true });
 
 const Workout = mongoose.model('Workout', workoutSchema);

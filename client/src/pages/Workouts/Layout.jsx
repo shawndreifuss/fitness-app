@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-import Workouts from './Workouts/Workouts';
+import Workouts from './Workouts';
 import SingleWorkout from './SingleWorkout/SingleWorkout';
 
 const Layout = () => {

@@ -19,20 +19,28 @@ module.exports.createWorkout = async (req, res) => {
     }
   };
 
-// Find workouts by category - GET /api/workouts/category/:category
-  module.exports.findWorkoutsByCategory = async (req, res) => {
-    try {
-      const category = req.params.category;
-      const workouts = await Workout.find({ category: category });
-      if (workouts.length === 0) {
-        return res.status(404).json({ success: false, message: "No workouts found for this category" });
-      }
-      res.status(200).json({ success: true, data: workouts });
-    } catch (error) {
-      console.error(error);
-      res.status(500).json({ success: false, message: "Server Error" });
+// Find workouts by primary or secondary muscles - GET /api/auth/workouts/muscles/:muscle
+module.exports.findWorkoutsByMuscle = async (req, res) => {
+  try {
+    const muscle = req.params.muscle;
+    // Using $or operator to search both primaryMuscles and secondaryMuscles fields
+    const workouts = await Workout.find({
+      $or: [
+        { primaryMuscles: muscle },
+        { secondaryMuscles: muscle }
+      ]
+    });
+
+    if (workouts.length === 0) {
+      return res.status(404).json({ success: false, message: "No workouts found matching the specified muscle group" });
     }
-  };
+    
+    res.status(200).json({ success: true, data: workouts });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false, message: "Server Error" });
+  }
+};
   module.exports.findWorkoutsByCoach = async (req, res) => {
     try {
       const coachId = req.params.coachId;

@@ -5,7 +5,7 @@ const {
   findWorkoutById,
   deleteWorkoutById,
   updateWorkoutById,
-  findWorkoutsByCategory, 
+  findWorkoutsByMuscle, 
   findWorkoutsByCoach,    
   findWorkoutsByName,   
   findWorkoutsBySearch,   
@@ -31,8 +31,8 @@ router.put('/:id/update', updateWorkoutById);
 
 // New routes based on the new functions
 
-// Finding workouts by category
-router.get('/category/:category', findWorkoutsByCategory);
+// Finding workouts by muscle
+router.get('/muscle/:muscle', findWorkoutsByMuscle);
 
 // Finding workouts by coach
 router.get('/coach/:coachId', findWorkoutsByCoach);
