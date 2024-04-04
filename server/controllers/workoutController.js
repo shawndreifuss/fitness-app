@@ -126,8 +126,9 @@ module.exports.findWorkoutsByMuscle = async (req, res) => {
     }
   };
 
-module.exports.findWorkoutsBySearch = async (req, res) => {
-    const { q: searchTerm, category, difficulty } = req.query;
+  module.exports.findWorkoutsBySearch = async (req, res) => {
+    const { q: searchTerm, muscle } = req.query;
+    
 
     try {
         let query = {};
@@ -136,22 +137,33 @@ module.exports.findWorkoutsBySearch = async (req, res) => {
         if (searchTerm) {
             const regex = new RegExp(searchTerm, 'i'); // Case-insensitive
             query.$or = [
-                { category: regex },
-                { 'exercises.name': regex },
-                { 'exercises.notes': regex },
+                { name: regex },
+                { description: regex },
+                { 'primaryMuscles': regex },
+                { 'secondaryMuscles': regex },
+                { mechanic: regex },
+                { type: regex },
+                { 'equipment': regex },
+                { equipmentDetails: regex },
                 { thumbnail: regex },
-                // Add other fields you want to search within here
+                { 'details.intensity': regex },
+                { 'details.instructions': regex },
+                { difficulty: regex },
+                { skillLevel: regex },
+                { targetZone: regex },
+                { recommendedEnvironment: regex },
+                { 'tags': regex },
+                { 'userFeedback.comments': regex },
+                // You can add more fields if necessary
             ];
         }
+         // Muscle group condition (if provided and not 'all')
+         if (muscle && muscle !== "all") {
+          query.$or = (query.$or || []).concat([
+              { 'primaryMuscles': muscle },
+              { 'secondaryMuscles': muscle }
+          ]);
 
-        // Category condition (if provided and not 'all')
-        if (category && category !== "all") {
-            query.category = category;
-        }
-
-        // Difficulty condition (within nested exercises array, if provided)
-        if (difficulty) {
-            query["exercises.difficulty"] = difficulty;
         }
 
         const workouts = await Workout.find(query);

@@ -1,22 +1,12 @@
-// TODO: Implement the WorkoutCard component with users chosen preferences of difficulty 
+import React, { useState } from "react";
 
-
-import React, { useState, useEffect } from "react";
-import {
-  Button,
-  Typography,
-  Tabs,
-  TabsHeader,
-  Tab,
-  Card,
-  CardHeader,
-  CardBody,
-  Avatar,
-} from "@material-tailwind/react";
 import formatMonthAndYear from "../../../../utils/DateFormat";
 import { searchWorkouts } from "../../../../context/workoutActions";
 import { Link } from "react-router-dom";
 import { LikeButton } from "../../../../components/Buttons/LikeButton";
+import ThumbDownOffAltTwoToneIcon from '@mui/icons-material/ThumbDownOffAltTwoTone';
+import ThumbUpTwoToneIcon from '@mui/icons-material/ThumbUpTwoTone';
+import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 
 // Categories and difficulties arrays remain the same
 const categories = [
@@ -33,18 +23,8 @@ const categories = [
 
 
 export function WorkoutCard( {workout}) {
-  console.log(workout.images[0]);
   
-
-  // Update and save state to localStorage
- //Possible TODO: Save useState variables to localstorage on refresh
-  // useEffect(() => {
-  //   localStorage.setItem('selectedCategory', selectedCategory);
-  //   // TODO: localStorage.setItem('selectedDifficulty', selectedDifficulty);
-  //   localStorage.setItem('searchTerm', searchTerm);
-  // }, [selectedCategory, selectedDifficulty, searchTerm]);
-const [heart, setHeart] = useState(true);
-
+const [isFavorite, setIsFavorite] = useState(false);
 
   return (
     
@@ -55,15 +35,16 @@ const [heart, setHeart] = useState(true);
                   <div className="relative w-full">
                     <img
                       src={workout?.images[0].toString()}
-                      className="mb-3 h-full max-h-48 w-full rounded-xl 3xl:h-full 3xl:w-full"
+                      className="mb-3 h-full min-h-64 max-h-64 w-full   3xl:h-full 3xl:w-full"
                       alt="hello"
                     />
                     <button
-                      onClick={() => setHeart(!heart)}
-                      className="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer"
+                      onClick={() => setIsFavorite(!isFavorite)}
+                      className="absolute top-3 right-3 flex items-center justify-center rounded-xl bg-white/50 backdrop-blur-xl 
+                      p-2 text-brand-500 hover:cursor-pointer"
                     >
-                      <div className="flex h-full w-full items-center justify-center rounded-full text-xl hover:bg-gray-50 dark:text-navy-900">
-                        <LikeButton />
+                      <div className="flex h-full w-full items-center justify-center  text-xl hover:bg-gray-50 dark:text-navy-900">
+                        <LikeButton isFavorite={isFavorite} setIsFavorite={setIsFavorite} />
                       </div>
                     </button>
                   </div>
@@ -79,10 +60,14 @@ const [heart, setHeart] = useState(true);
                       </p>
                     </div>
           
-                    <div className="flex flex-row-reverse md:mt-2 lg:mt-0">
-                      <span className="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 dark:!border-navy-800 dark:bg-gray-800 dark:text-white">
-                       +5 {workout?.completed?.length}
+                    <div className="flex flex-row-reverse gap-5 md:mt-2 lg:mt-0">
+                      <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white dark:!border-navy-800">
+                        <ThumbDownOffAltTwoToneIcon />65
                       </span>
+                      <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white dark:!border-navy-800">
+                        <ThumbUpTwoToneIcon />65
+                      </span>
+                      
                       {/* {bidders.map((avt, key) => (
                         <span
                           key={key}
@@ -97,7 +82,9 @@ const [heart, setHeart] = useState(true);
                       ))} */}
                     </div>
                   </div>
-          
+          <span className="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 dark:!border-navy-800 dark:bg-gray-800 dark:text-white">
+                       +5 {workout?.completed?.length}
+                      </span>
                   <div className="flex items-center justify-between md:flex-col md:items-start lg:flex-row lg:justify-between xl:flex-col 2xl:items-start 3xl:flex-row 3xl:items-center 3xl:justify-between">
                     <div className="flex">
                       <p className="mb-2 text-sm font-bold text-brand-500 dark:text-white">

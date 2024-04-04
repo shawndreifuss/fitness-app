@@ -87,7 +87,7 @@ export async function findWorkoutsByName(name) {
   }
 }
 
-export async function searchWorkouts(searchTerm, muscle = "", difficulty = "") {
+export async function searchWorkouts(searchTerm,muscle, difficulty = "") {
   console.log(searchTerm, muscle, difficulty);
   try {
     // Construct the query parameters string
@@ -98,7 +98,6 @@ export async function searchWorkouts(searchTerm, muscle = "", difficulty = "") {
     }).toString();
 
     const response = await axiosInstance.get(`/search?${params}`);
-    console.log(response.data);
     return response.data;
   } catch (error) {
     console.error('Error searching workouts:', error.response?.data || error.message);

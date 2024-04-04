@@ -3,8 +3,14 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import AddIcon from '@mui/icons-material/Add';
 
 export const LikeButton = () => {
-    const [ isFavorite, setIsFavorite] = usestate()
+    const [ isFavorite, setIsFavorite] = useState(false)
   return (
-    <div>LikeButton</div>
+    <>
+    
+    {isFavorite ? 
+    <AddIcon />: 
+    <FavoriteIcon color='red' fill='red' /> 
+    }
+  </>
   )
 }
