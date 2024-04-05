@@ -4,6 +4,7 @@ import Workouts from './Workouts';
 import SingleWorkout from './SingleWorkout/SingleWorkout';
 
 const Layout = () => {
+
   return (
    
 

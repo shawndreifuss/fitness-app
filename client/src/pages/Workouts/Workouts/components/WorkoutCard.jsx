@@ -1,110 +1,152 @@
-import React, { useState } from "react";
-
-import formatMonthAndYear from "../../../../utils/DateFormat";
-import { searchWorkouts } from "../../../../context/workoutActions";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { LikeButton } from "../../../../components/Buttons/LikeButton";
-import ThumbDownOffAltTwoToneIcon from '@mui/icons-material/ThumbDownOffAltTwoTone';
-import ThumbUpTwoToneIcon from '@mui/icons-material/ThumbUpTwoTone';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
+import { toggleFavoriteWorkout } from "../../../../context/userActions";
+import ThumbDownOffAltTwoToneIcon from "@mui/icons-material/ThumbDownOffAltTwoTone";
+import ThumbUpTwoToneIcon from "@mui/icons-material/ThumbUpTwoTone";
+import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
+import Diversity2Icon from "@mui/icons-material/Diversity2";
+import MonitorWeightIcon from "@mui/icons-material/MonitorWeight";
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import AddIcon from '@mui/icons-material/Add';
 
-// Categories and difficulties arrays remain the same
-const categories = [
-  { label: "All", value: "all" },
-  { label: "Legs", value: "legs" },
-  { label: "Arms", value: "arms" },
-  { label: "Chest", value: "chest" },
-  { label: "Back", value: "back" },
-  { label: "Shoulders", value: "shoulders" },
-  { label: "Abs", value: "abs" },
-  { label: "Cardio", value: "cardio" },
-  // Add more categories as needed
-];
+export function WorkoutCard({ workout, user }) {
+  const [isFavorite, setIsFavorite] = useState(false);
+  const [likeStatus, setLikeStatus] = useState({
+    liked: false,
+    likes: workout?.likes,
+  });
+  const [dislikeStatus, setDislikeStatus] = useState({
+    disliked: false,
+    dislikes: workout?.dislikes,
+  });
 
+  useEffect(() => {
+    // Check if the user's favorites include the current workout and update isFavorite accordingly
+    if (user && user.favorites.includes(workout._id)) {
+      setIsFavorite(true);
+    } else {
+      setIsFavorite(false);
+    }
+  }, [user, workout]); // Re-run this effect if user or workout changes
 
-export function WorkoutCard( {workout}) {
+  const handleFavoriteToggle = async () => {
+    const newIsFavorite = !isFavorite;
+    setIsFavorite(newIsFavorite); // Optimistically updating the UI for a better user experience
   
-const [isFavorite, setIsFavorite] = useState(false);
+    try {
+      await toggleFavoriteWorkout(user._id, workout._id, isFavorite);
+      // If toggle is successful, the UI is already up to date due to optimistic update
+    } catch (error) {
+      console.error('Error toggling favorite status:', error);
+      setIsFavorite(!newIsFavorite); // Revert the UI update in case of an error
+    }
+  };
+  const handleLike = () => {
+    // This function would also call the backend to update the likes for the workout
+    if (!likeStatus.liked) {
+      setLikeStatus({ liked: true, likes: likeStatus.likes + 1 });
+      if (dislikeStatus.disliked) {
+        setDislikeStatus({
+          disliked: false,
+          dislikes: dislikeStatus.dislikes - 1,
+        });
+      }
+    }
+  };
+
+  const handleDislike = () => {
+    // Similarly, update the backend on dislike
+    if (!dislikeStatus.disliked) {
+      setDislikeStatus({
+        disliked: true,
+        dislikes: dislikeStatus.dislikes + 1,
+      });
+      if (likeStatus.liked) {
+        setLikeStatus({ liked: false, likes: likeStatus.likes - 1 });
+      }
+    }
+  };
 
   return (
-    
-         
-              <div className="!z-5 relative flex flex-col rounded-[20px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:shadow-noneflex flex-col w-full h-full !p-4 3xl:p-![18px] bg-white ${extra}"
-              >
-                <div className="h-full w-full">
-                  <div className="relative w-full">
-                    <img
-                      src={workout?.images[0].toString()}
-                      className="mb-3 h-full min-h-64 max-h-64 w-full   3xl:h-full 3xl:w-full"
-                      alt="hello"
-                    />
-                    <button
-                      onClick={() => setIsFavorite(!isFavorite)}
-                      className="absolute top-3 right-3 flex items-center justify-center rounded-xl bg-white/50 backdrop-blur-xl 
-                      p-2 text-brand-500 hover:cursor-pointer"
-                    >
-                      <div className="flex h-full w-full items-center justify-center  text-xl hover:bg-gray-50 dark:text-navy-900">
-                        <LikeButton isFavorite={isFavorite} setIsFavorite={setIsFavorite} />
-                      </div>
-                    </button>
-                  </div>
-          
-                  <div className="mb-3 flex items-center justify-between px-1 md:flex-col md:items-start lg:flex-row lg:justify-between xl:flex-col xl:items-start 3xl:flex-row 3xl:justify-between">
-                    <div className="mb-2">
-                      <p className="text-lg font-bold text-navy-700 dark:text-white">
-                        {" "}
-                        {workout?.name}{" "}
-                      </p>
-                      <p className="mt-1 text-sm font-medium text-gray-600 md:mt-2">
-                        {/*  TODO: ADD Coach  By {workout?.coach}{" "} */}
-                      </p>
-                    </div>
-          
-                    <div className="flex flex-row-reverse gap-5 md:mt-2 lg:mt-0">
-                      <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white dark:!border-navy-800">
-                        <ThumbDownOffAltTwoToneIcon />65
-                      </span>
-                      <span className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white dark:!border-navy-800">
-                        <ThumbUpTwoToneIcon />65
-                      </span>
-                      
-                      {/* {bidders.map((avt, key) => (
-                        <span
-                          key={key}
-                          className="z-10 -mr-3 h-8 w-8 rounded-full border-2 border-white dark:!border-navy-800"
-                        >
-                          <img
-                            className="h-full w-full rounded-full object-cover"
-                            src={avt}
-                            alt=""
-                          />
-                        </span>
-                      ))} */}
-                    </div>
-                  </div>
-          <span className="z-0 ml-px inline-flex h-8 w-8 items-center justify-center rounded-full border-2 border-white bg-[#E0E5F2] text-xs text-navy-700 dark:!border-navy-800 dark:bg-gray-800 dark:text-white">
-                       +5 {workout?.completed?.length}
-                      </span>
-                  <div className="flex items-center justify-between md:flex-col md:items-start lg:flex-row lg:justify-between xl:flex-col 2xl:items-start 3xl:flex-row 3xl:items-center 3xl:justify-between">
-                    <div className="flex">
-                      <p className="mb-2 text-sm font-bold text-brand-500 dark:text-white">
-                        Current Bid: price <span>ETH</span>
-                      </p>
-                    </div>
-                    <Link to={`/workouts/${workout._id}`}>
-                    <button
-                      
-                      className="linear rounded-[20px] bg-brand-900 px-4 py-2 text-base font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:active:opacity-90"
-                    >
-                      View
-                    </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-    
+    <div className="!z-5 relative flex flex-col rounded-[20px] bg-white bg-clip-border shadow-3xl shadow-shadow-500 dark:!bg-navy-800 dark:text-white dark:shadow-noneflex flex-col w-full h-full !p-4 3xl:p-![18px] bg-white ${extra}">
+      <div className="h-full w-full">
+        <div className="relative w-full">
+          <img
+            src={workout?.images[0].toString()}
+            className="mb-3 h-full  max-h-48 w-full   3xl:h-full 3xl:w-full"
+            alt="hello"
+          />
+          <button
+  onClick={handleFavoriteToggle}
+  className="absolute top-3 right-3 flex items-center justify-center rounded-xl bg-white/50 backdrop-blur-xl p-2 text-brand-500 hover:cursor-pointer"
+>
+  <div className="flex h-5 w-5 items-center justify-center text-xl hover:w-6 hover:h-6 dark:text-navy-900">
+    {isFavorite ? (
+      <FavoriteIcon color="error" /> // Assuming you want the filled icon when favorited
+    ) : (
+      <AddIcon /> // Assuming you want to show an add icon when not favorited
+    )}
+  </div>
+</button>
+        </div>
+        <div className="mb-3 flex items-center justify-between px-1 md:flex-col md:items-start lg:flex-row lg:justify-between xl:flex-col xl:items-start 3xl:flex-row 3xl:justify-between">
+          <div className="mb-2">
+            <p className="text-lg max-w-48 font-bold text-navy-700 dark:text-white">
+              {" "}
+              {workout?.name}{" "}
+            </p>
+            <p className="mt-1 text-sm font-medium text-gray-600 md:mt-2">
+              {/*  TODO: ADD Coach  By {workout?.coach}{" "} */}
+            </p>
+          </div>
+          <div className="flex items-center justify-between">
+            <button
+              onClick={handleDislike}
+              className={`h-8 w-8 ${
+                dislikeStatus.disliked ? "text-red-600" : "text-gray-500"
+              }`}
+            >
+              <ThumbDownOffAltTwoToneIcon />
+            </button>
+            <button
+              onClick={handleLike}
+              className={`h-8 w-8 ${
+                likeStatus.liked ? "text-blue-600" : "text-gray-500"
+              }`}
+            >
+              <ThumbUpTwoToneIcon />
+            </button>
+          </div>
+        </div>
+        <div className="mb-2 flex flex-col gap-5 w-3/4">
+          <div className="flex gap-5">
+            <Diversity2Icon />
+            <span className="text-md text-gray-600 dark:text-gray-400">
+              Muscle: {workout?.primaryMuscles}
+            </span>
+          </div>
+          <div className="flex gap-5">
+            <FitnessCenterIcon />
+            <span className="text-md text-gray-600 dark:text-gray-400">
+              Type: {workout?.type}
+            </span>
+          </div>
+          <div className="flex gap-5 mb-5">
+            <MonitorWeightIcon color="" />
+            <span className="text-md text-gray-600 dark:text-gray-400">
+              Equipment: {workout?.equipmentDetails}
+            </span>
+          </div>
+        </div>
+
+        <Link to={`/workouts/${workout._id}`}>
+          <button className="linear w-full rounded-md bg-brand-900 px-4  py-1 text-base font-medium text-white transition duration-200 hover:bg-brand-800 active:bg-brand-700 dark:bg-brand-400 dark:hover:bg-brand-300 dark:active:opacity-90">
+            View
+          </button>
+        </Link>
+      </div>
+    </div>
   );
 }
 
 export default WorkoutCard;
-

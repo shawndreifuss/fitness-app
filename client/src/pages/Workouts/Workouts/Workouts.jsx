@@ -3,6 +3,7 @@ import _ from 'lodash';
 import Hero from './components/Hero';
 import WorkoutCard from './components/WorkoutCard';
 import { searchWorkouts } from '../../../context/workoutActions';
+import { useUser } from '../../../context/UserContext';
 
 // Assuming searchWorkouts function is updated to handle muscle group filtering
 
@@ -15,6 +16,8 @@ function Workouts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const workoutsPerPage = 15;
+
+  const { user } = useUser();
 
   useEffect(() => {
     const fetchWorkouts = async () => {
@@ -67,7 +70,7 @@ function Workouts() {
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
           {workouts.map((workout, index) => (
-            <WorkoutCard key={index} workout={workout} />
+            <WorkoutCard key={index} workout={workout} user={user}/>
           ))}
         </div>
 

@@ -40,6 +40,14 @@ const workoutSchema = new mongoose.Schema({
     ref: 'User'
   },
   thumbnail: String,
+  likes: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
+dislikes: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'User'
+  },
   images: [String],
   details: [detailSchema],
   difficulty: {

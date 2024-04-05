@@ -33,7 +33,6 @@ export async function findAllWorkouts() {
 export async function findWorkoutById(id) {
   try {
     const response = await axiosInstance.get(`/${id}`);
-    console.log(response.data);
     return response.data;
   } catch (error) {
     console.error('Error fetching workout by ID:', error.response.data);
@@ -104,6 +103,8 @@ export async function searchWorkouts(searchTerm,muscle, difficulty = "") {
     throw error;
   }
 }
+
+
 
 
 

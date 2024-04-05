@@ -20,19 +20,21 @@ function App() {
   const location = useLocation();
   const showNavbar = !['/login', '/register'].includes(location.pathname);
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  
+  
 
   return (
     <UserProvider >
        <div className="flex h-screen overflow-hidden">
 
 {/* Sidebar */}
-<Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+<Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}  />
 
 {/* Content area */}
 <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
 
   {/*  Site Navbar */}
-  <Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+  <Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}  />
 
   <div>
     <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
@@ -46,10 +48,10 @@ function App() {
         {/* Other routes when user logs in can no longer access */}
       </Route>
        <Route path="/login/forgot-password/:resetToken" element={<ForgotPassword />} />
-      <Route path='/workouts' element={<Workouts/>} />
-      <Route path='/workouts/:id' element={<SingleWorkout/>} />
+      <Route path='/workouts' element={<Workouts />} />
+      <Route path='/workouts/:id' element={<SingleWorkout />} />
       <Route path='/nutrition/*' element={<Nutrition/>} />
-      <Route path='/shop/*' element={<Shop/>} />
+      <Route path='/store/*' element={<Shop/>} />
       <Route path='/about/*' element={<About/>} />
       <Route element={<ProtectedRoute />}>
         <Route path="/profile/*" element={<Profile />} />
