@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { toggleFavoriteWorkout } from "../../../../context/userActions";
+import { toggleFavoriteWorkout } from "@/api/userActions";
 import ThumbDownOffAltTwoToneIcon from "@mui/icons-material/ThumbDownOffAltTwoTone";
 import ThumbUpTwoToneIcon from "@mui/icons-material/ThumbUpTwoTone";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";

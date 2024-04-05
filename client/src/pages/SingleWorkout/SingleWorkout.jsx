@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Hero from "./components/Hero";
-import { useUser } from '../../../context/UserContext'
-import { findWorkoutById } from "../../../context/workoutActions";
+import { useUser } from '@/context'
+import { findWorkoutById } from "@/api/workoutActions";
 import { useParams } from "react-router-dom";
 import Instructions from "./components/Instructions";
 

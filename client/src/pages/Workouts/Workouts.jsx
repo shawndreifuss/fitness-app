@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 import Hero from './components/Hero';
 import WorkoutCard from './components/WorkoutCard';
-import { searchWorkouts } from '../../../context/workoutActions';
-import { useUser } from '../../../context/UserContext';
+import { searchWorkouts } from '../../api/workoutActions';
+import { useUser } from '../../context/UserContext';
 
 // Assuming searchWorkouts function is updated to handle muscle group filtering
 

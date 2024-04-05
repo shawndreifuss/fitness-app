@@ -1,70 +1,71 @@
-import React, {useContext, useState } from 'react';
+import React, { useContext, useState } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
-// Context Provider 
-import { UserProvider } from './context/UserContext';
+// Context Provider
+import { UserProvider } from "./context/UserContext";
 
 //  Protected Routes
-import { ProtectedRoute, PublicRoute } from './components/Routes/ProtectedRoutes';
-// Component Imports 
-import Navbar from './components/Navbar/Navbar';
+import { ProtectedRoute } from "./context/ProtectedRoutes";
+// Component Imports
+import Navbar from "./components/Navbar/Navbar";
+
+// Auth Imports
+import { Auth , Workout} from "@/layouts";
 
 // Page Imports
-import { Home, Login, Register, Workouts, Nutrition, Shop, About, Profile, Contact } from './pages';
-import ForgotPassword from './pages/auth/components/ForgotPassword';
-import Sidebar from './components/Sidebar/Sidebar';
-import SingleWorkout from './pages/Workouts/SingleWorkout/SingleWorkout';
-
+import {
+  Home,
+  Nutrition,
+  Shop,
+  About,
+  Profile,
+  Contact,
+} from "./pages";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
-  
   const location = useLocation();
-  const showNavbar = !['/login', '/register'].includes(location.pathname);
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  
-  
-
+  const showNavbar = !location.pathname.startsWith("/auth");
   return (
-    <UserProvider >
-       <div className="flex h-screen overflow-hidden">
+    <UserProvider>
+      <div className="flex h-screen overflow-hidden">
+        {/* Sidebar */}
+        {showNavbar && (
+          <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+        )}
 
-{/* Sidebar */}
-<Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}  />
+        {/* Content Area */}
+        <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+          {showNavbar && (
+            <Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+          )}
 
-{/* Content area */}
-<div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+          {/* Main Content */}
+          <main className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
+            <Routes>
+              {/* Landing Page */}
+              <Route path="/" element={<Home />} />
 
-  {/*  Site Navbar */}
-  <Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}  />
+              {/* Public Routes */}
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/store/*" element={<Shop />} />
+              <Route path="/about/*" element={<About />} />
 
-  <div>
-    <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
+              {/* Auth Routes */}
+              <Route path="/auth/*" element={<Auth />} />
+              <Route path="/workouts/*" element={<Workout />} />
+              <Route path="/nutrition/*" element={<Nutrition />} />
 
-     
-     <Routes>
-       <Route path="/" element={<Home/>} />
-       <Route element={<PublicRoute restricted={true} />}>
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        {/* Other routes when user logs in can no longer access */}
-      </Route>
-       <Route path="/login/forgot-password/:resetToken" element={<ForgotPassword />} />
-      <Route path='/workouts' element={<Workouts />} />
-      <Route path='/workouts/:id' element={<SingleWorkout />} />
-      <Route path='/nutrition/*' element={<Nutrition/>} />
-      <Route path='/store/*' element={<Shop/>} />
-      <Route path='/about/*' element={<About/>} />
-      <Route element={<ProtectedRoute />}>
-        <Route path="/profile/*" element={<Profile />} />
-        {/* ... other protected routes */}
-     </Route>
-      <Route path='/contact/*' element={<Contact/>} />
-       <Route path="/*" element={<Navigate to="/" replace />} />  
-    </Routes>
+              {/* Protected Routes */}
+              <Route element={<ProtectedRoute />}>
+                <Route path="/profile/*" element={<Profile />} />
+              </Route>
 
-           </div>
-           </div>
-           </div>
-              </div>
+              {/* <Route path="/*" element={<Navigate to="/" replace />} /> */}
+            </Routes>
+          </main>
+        </div>
+      </div>
     </UserProvider>
   );
 }

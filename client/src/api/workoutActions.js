@@ -87,7 +87,6 @@ export async function findWorkoutsByName(name) {
 }
 
 export async function searchWorkouts(searchTerm,muscle, difficulty = "") {
-  console.log(searchTerm, muscle, difficulty);
   try {
     // Construct the query parameters string
     const params = new URLSearchParams({

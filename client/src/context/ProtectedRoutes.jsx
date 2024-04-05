@@ -1,6 +1,6 @@
 import React, { useEffect, useState} from 'react';
 import {  useNavigate, Outlet } from 'react-router-dom';
-import { useUser } from '../../context/UserContext'; // Import your user context
+import { useUser } from './UserContext'; // Import your user context
 
 // Hook for protected route logic
 function useAuthProtection() {

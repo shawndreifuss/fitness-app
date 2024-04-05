@@ -25,3 +25,4 @@ export async function toggleFavoriteWorkout(userId, workoutId, isFavorite) {
     throw error; // Rethrowing the error for handling in the component if necessary
   }
 }
+
