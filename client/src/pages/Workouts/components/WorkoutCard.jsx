@@ -19,7 +19,7 @@ export function WorkoutCard({ workout, user }) {
     disliked: false,
     dislikes: workout?.dislikes,
   });
-
+console.log(workout)
   useEffect(() => {
     // Check if the user's favorites include the current workout and update isFavorite accordingly
     if (user && user.favorites.includes(workout._id)) {
@@ -134,7 +134,9 @@ export function WorkoutCard({ workout, user }) {
           <div className="flex gap-5 mb-5">
             <MonitorWeightIcon color="" />
             <span className="text-md text-gray-600 dark:text-gray-400">
-              Equipment: {workout?.equipmentDetails}
+              Equipment Needed: {workout?.equipment?.map(e =>
+                e 
+              )}
             </span>
           </div>
         </div>

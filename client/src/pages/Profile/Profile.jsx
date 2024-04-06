@@ -20,7 +20,7 @@ const Profile = () => {
   // Components map
   const tabComponents = {
     profile: <ProfilePage user={user} />,
-    fitness: <div>Fitness Stats Component</div>, // Replace with actual component
+    myWorkouts: <div>Fitness Stats Component</div>, // Replace with actual component
     settings: <UserSettings user={user} />,
   };
 const setTab = (tab) => {
@@ -30,10 +30,10 @@ const setTab = (tab) => {
  
   return (
    <>
-   <div className="relative mt-8 h-72 w-full overflow-hidden rounded-xl bg-[url('/imgs/bg-hero.webp')] bg-cover	bg-center">
+   <div className="relative  h-72 w-full overflow-hidden rounded-xl bg-[url('/imgs/bg-hero.webp')] bg-cover	bg-center">
         <div className="absolute inset-0 h-full w-full bg-gray-900/75" />
       </div>
-   <Card className="mx-3 -mt-16 mb-6 lg:mx-4 border border-blue-gray-100">
+   <Card className="mx-3 -mt-40 mb-6 lg:mx-4 border border-blue-gray-100">
         <CardBody className="p-4">
           <div className="mb-10 flex items-center justify-between flex-wrap gap-6">
             <div className="flex items-center gap-6">
@@ -63,9 +63,9 @@ const setTab = (tab) => {
                     <HomeIcon className="-mt-1 mr-2 inline-block h-5 w-5" />
                     Profile
                   </Tab>
-                  <Tab value="fitness" onClick={()=>setTab("fitness")}>
+                  <Tab value="fitness" onClick={()=>setTab("myWorkouts")}>
                     <ChatBubbleLeftEllipsisIcon className="-mt-0.5 mr-2 inline-block h-5 w-5" />
-                    Fitness
+                  Workouts
                   </Tab>
                   <Tab value="settings" onClick={()=>setTab("settings")}>
                     <Cog6ToothIcon className="-mt-1 mr-2 inline-block h-5 w-5" />

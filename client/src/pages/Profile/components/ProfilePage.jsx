@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import {
   Card,
   CardBody,
@@ -5,25 +6,22 @@ import {
   CardFooter,
   Avatar,
   Typography,
-  Tabs,
-  TabsHeader,
-  Tab,
   Tooltip,
   Button,
 } from "@material-tailwind/react";
 import {
-  HomeIcon,
-  ChatBubbleLeftEllipsisIcon,
-  Cog6ToothIcon,
   PencilIcon,
 } from "@heroicons/react/24/solid";
 import { Link } from "react-router-dom";
 import  ProfileInfoCard  from "../components/Cards/profile-info-card";
-import MessageCard  from "../components/Cards/message-card";
-import { conversationsData, projectsData } from "../../../Data/data";
+import {  projectsData } from "../../../Data/data";
+import { Calendar } from "@/components";
+
 
 export function ProfilePage({user}) {
-  const currentUser = user
+  const [activeTab, setActiveTab] = useState(true);
+
+
   return (
     <>
           <div className="grid-cols-1 mb-12 grid gap-12 px-4 lg:grid-cols-2 xl:grid-cols-3">
@@ -32,18 +30,18 @@ export function ProfilePage({user}) {
               <div className="flex flex-col gap-12">
               <ProfileInfoCard
               title="Profile Information"
-              description={currentUser?.goal}
+              description={user?.goal}
               details={{
                 
-                mobile: `${currentUser?.phone}`,
-                email: `${currentUser?.email}`,
-                nutrition: `${currentUser?.phone}`,
-                preferences: `${currentUser?.settings.nutritionalSettings?.dietaryRestrictions}`,
-                calories: `${currentUser?.settings.nutritionalSettings?.calorieGoal}`,
+                mobile: `${user?.phone}`,
+                email: `${user?.email}`,
+                nutrition: `${user?.phone}`,
+                preferences: `${user?.settings.nutritionalSettings?.dietaryRestrictions}`,
+                calories: `${user?.settings.nutritionalSettings?.calorieGoal}`,
 
 
                 
-                // location: `${currentUser?.location}`,
+                // location: `${user?.location}`,
                 social: (
                   <div className="flex items-center gap-4">
                     <i className="fa-brands fa-facebook text-blue-700" />
@@ -83,35 +81,21 @@ export function ProfilePage({user}) {
               }
             />
             <div className="max-h-96 overflow-y-scroll">
-              <Typography variant="h6" color="blue-gray" className="mb-3">
-                completed workouts
-              </Typography>
-              <ul className="flex flex-col gap-6">
-                {conversationsData.map((props) => (
-                  <MessageCard
-                    key={props.message}
-                    {...props}
-                    action={
-                      <Button variant="text" size="sm">
-                        reply
-                      </Button>
-                    }
-                  />
-                ))}
-              </ul>
+            <Calendar />
             </div>
           </div>
           <div className="px-4 pb-4">
             <Typography variant="h6" color="blue-gray" className="mb-2">
-              Projects
+              Upcoming Workouts
             </Typography>
             <Typography
               variant="small"
-              className="font-normal text-blue-gray-500"
+              className="font-normal text-blue-gray-500 underline cursor-pointer"
+              onClick={() => setActiveTab(!activeTab)}
             >
-              Architects design houses
+              View all Workouts
             </Typography>
-            <div className="mt-6 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-4">
+            <div className={`mt-6 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-4  ${activeTab ? 'overflow-y-scroll h-96' : '' }`}>
               {projectsData.map(
                 ({ img, title, description, tag, route, members }) => (
                   <Card key={title} color="transparent" shadow={false}>

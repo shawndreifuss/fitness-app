@@ -1,10 +1,10 @@
 export const projectsData = [
   {
-    img: "/img/home-decor-1.jpeg",
-    title: "Modern",
-    tag: "Project #1",
+    img: "/img/leg-day.webp",
+    title: "Leg-Day",
+    tag: "Day #1",
     description:
-      "As Uber works through a huge amount of internal management turmoil.",
+      "Leg day is the best day. It's the day that you can't skip. It's the day that you can't fake.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-1.jpeg", name: "Romina Hadid" },
@@ -14,11 +14,11 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-2.jpeg",
-    title: "Scandinavian",
-    tag: "Project #2",
+    img: "/img/chest-day.webp",
+    title: "Chest-Day",
+    tag: "Day #2",
     description:
-      "Music is something that every person has his or her own specific opinion about.",
+      "Chest day is the best day. It's the day that you can't skip. It's the day that you can't fake.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-4.jpeg", name: "Alexander Smith" },
@@ -28,11 +28,11 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-3.jpeg",
-    title: "Minimalist",
-    tag: "Project #3",
+    img: "/img/back-day.webp",
+    title: "Back-Day",
+    tag: "Day #3",
     description:
-      "Different people have different taste, and various types of music.",
+      "Back day is the best day. It's the day that you can't skip. It's the day that you can't fake.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-1.jpeg", name: "Romina Hadid" },
@@ -42,11 +42,25 @@ export const projectsData = [
     ],
   },
   {
-    img: "/img/home-decor-4.jpeg",
-    title: "Gothic",
-    tag: "Project #4",
+    img: "/img/arm-day.webp",
+    title: "Arm-Day",
+    tag: "Day #4",
     description:
-      "Why would anyone pick blue over pink? Pink is obviously a better color.",
+   "Arm day is the best day. It's the day that you can't skip. It's the day that you can't fake.",
+    route: "/dashboard/profile",
+    members: [
+      { img: "/img/team-4.jpeg", name: "Alexander Smith" },
+      { img: "/img/team-3.jpeg", name: "Jessica Doe" },
+      { img: "/img/team-2.jpeg", name: "Ryan Tompson" },
+      { img: "/img/team-1.jpeg", name: "Romina Hadid" },
+    ],
+  },
+  {
+    img: "/img/cardio-day.webp",
+    title: "Cardio-Day",
+    tag: "Day #5",
+    description:
+    "Cardio day is the best day. It's the day that you can't skip. It's the day that you can't fake.",
     route: "/dashboard/profile",
     members: [
       { img: "/img/team-4.jpeg", name: "Alexander Smith" },
