@@ -285,7 +285,7 @@ module.exports.UpdateUserSettings = async (req, res) => {
   }
 };
 
-exports.updateUserAddress = async (req, res) => {
+module.exports.UpdateUserAddress = async (req, res) => {
   const { userId } = req.params;
   const { street, city, state, zip, country } = req.body;
 

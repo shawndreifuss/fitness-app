@@ -8,8 +8,7 @@ import Instructions from "./components/Instructions";
 const SingleWorkout = () => {
   const { id } = useParams()
   const { user } = useUser()
-
-  const [workout, setWorkout] = useState({})
+ const [workout, setWorkout] = useState({})
 
 useEffect(() => {
   findWorkoutById(id)

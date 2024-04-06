@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { Register, Login, Logout, ForgotPassword, ChangePassword, UpdateUserPassword, updateUserAddress, GetMe, OAuth, GetUserSettings, UpdateUserSettings } = require('../../controllers/authController');
+const { Register, Login, Logout, ForgotPassword, ChangePassword, UpdateUserPassword, UpdateUserAddress, GetMe, OAuth, GetUserSettings, UpdateUserSettings } = require('../../controllers/authController');
 const verifyToken = require('../../middleware/verifyToken');
 
 
@@ -15,7 +15,6 @@ router.post('/oauth', OAuth);
 // Update User Settings 
 router.get('/user-settings/:userId', GetUserSettings);
 router.put('/user-settings/:userId/update-settings', UpdateUserSettings);
-
 router.put('/user-settings/:userId/update-address', UpdateUserAddress);
 
 module.exports = router;

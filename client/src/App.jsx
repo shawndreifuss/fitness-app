@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 // Context Provider
 import { UserProvider } from "./context/UserContext";
+import { useUser } from "@/context";
 
 //  Protected Routes
 import { ProtectedRoute } from "./context/ProtectedRoutes";
@@ -26,6 +27,8 @@ function App() {
   const location = useLocation();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const showNavbar = !location.pathname.startsWith("/auth");
+
+  
   return (
     <UserProvider>
       <div className="flex h-screen overflow-hidden">

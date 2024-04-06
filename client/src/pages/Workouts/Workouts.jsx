@@ -2,8 +2,9 @@ import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 import Hero from './components/Hero';
 import WorkoutCard from './components/WorkoutCard';
-import { searchWorkouts } from '../../api/workoutActions';
-import { useUser } from '../../context/UserContext';
+import { searchWorkouts } from '@/api/workoutActions';
+import { useUser } from '@/context';
+
 
 // Assuming searchWorkouts function is updated to handle muscle group filtering
 
@@ -16,8 +17,10 @@ function Workouts() {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const workoutsPerPage = 15;
+  const { user }  = useUser();
+  
 
-  const { user } = useUser();
+  
 
   useEffect(() => {
     const fetchWorkouts = async () => {

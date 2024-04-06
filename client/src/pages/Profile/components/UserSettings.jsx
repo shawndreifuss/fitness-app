@@ -1,5 +1,4 @@
 import React from "react";
-import Breadcrumbs from "../../../components/Breadcrumbs/Breadcrumbs";
 import AvatarCard from "../components/Cards/AvatarCard";
 import PreferencesCard from "./Cards/PreferencesCard";
 import NotificationsCard from "./Cards/NotificationsCard";
@@ -9,13 +8,8 @@ import AddressCard from "./Cards/AddressCard";
 const UserSettings = (user) => {
   return (
     <>
-<div className="mt-16 grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 dark:bg-gray-900">
-    <div className="mb-4 col-span-full xl:mb-2">
-       <Breadcrumbs />
-        <h1 className="text-xl font-semibold text-gray-900 sm:text-2xl dark:text-white">User settings</h1>
-    </div>
+<div className=" grid grid-cols-1 px-4 pt-6 xl:grid-cols-3 xl:gap-4 dark:bg-gray-900">
     <div className="col-span-full xl:col-auto">
-       <AvatarCard user={user} />
         <PreferencesCard user={user} /> 
         <NotificationsCard user={user} />
         <div className="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
