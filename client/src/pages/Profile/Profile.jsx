@@ -11,6 +11,7 @@ import {
 // Components
 import ProfilePage from "./components/ProfilePage";
 import UserSettings from "./components/UserSettings";
+import MyWorkouts from "./components/MyWorkouts";
 
 const Profile = () => {
 
@@ -20,7 +21,7 @@ const Profile = () => {
   // Components map
   const tabComponents = {
     profile: <ProfilePage user={user} />,
-    myWorkouts: <div>Fitness Stats Component</div>, // Replace with actual component
+    myWorkouts: <MyWorkouts user={user} />,
     settings: <UserSettings user={user} />,
   };
 const setTab = (tab) => {

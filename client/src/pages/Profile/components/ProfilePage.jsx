@@ -93,7 +93,7 @@ export function ProfilePage({user}) {
               className="font-normal text-blue-gray-500 underline cursor-pointer"
               onClick={() => setActiveTab(!activeTab)}
             >
-              View all Workouts
+              View all My Workouts 
             </Typography>
             <div className={`mt-6 grid grid-cols-1 gap-12 md:grid-cols-2 xl:grid-cols-4  ${activeTab ? 'overflow-y-scroll h-96' : '' }`}>
               {projectsData.map(
@@ -134,7 +134,7 @@ export function ProfilePage({user}) {
                     <CardFooter className="mt-6 flex items-center justify-between py-0 px-1">
                       <Link to={route}>
                         <Button variant="outlined" size="sm">
-                          view project
+                          view workout
                         </Button>
                       </Link>
                       <div>

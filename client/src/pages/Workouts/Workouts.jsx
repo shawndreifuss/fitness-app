@@ -4,6 +4,10 @@ import Hero from './components/Hero';
 import WorkoutCard from './components/WorkoutCard';
 import { searchWorkouts } from '@/api/workoutActions';
 import { useUser } from '@/context';
+import TopCreatedCard from './components/TopCreatedCard';
+import tableDataTopCreators from "./variables/tableDataTopCreators.json";
+import { tableColumnsTopCreators } from ".//variables/tableColumnsTopCreators";
+import HistoryCard from './components/Cards/HistoryCard';
 
 
 // Assuming searchWorkouts function is updated to handle muscle group filtering
@@ -50,12 +54,12 @@ function Workouts() {
   };
 
   const getPaginationRange = () => {
-    return _.range(Math.max(currentPage - 2, 1), Math.min(currentPage + 2, totalPages) + 1);
+    return _.range(Math.max(currentPage - 2, 1), Math.min(currentPage + 1, totalPages) + 1);
   };
 
   return (
     <div className="mt-3 grid h-full grid-cols-1 gap-5 xl:grid-cols-2 2xl:grid-cols-3">
-      <div className="col-span-1 h-fit w-full xl:col-span-1 2xl:col-span-2">
+      <div className="col-span-1 h-lvh overflow-y-scroll w-full xl:col-span-1 2xl:col-span-2">
         <Hero setSearchTerm={setSearchTerm} searchTerm={searchTerm} />
 
         <div className="mb-4 mt-5 flex flex-col justify-between px-4 md:flex-row md:items-center">
@@ -76,7 +80,6 @@ function Workouts() {
             <WorkoutCard key={index} workout={workout} user={user}/>
           ))}
         </div>
-
         <div className="flex overflow-x-auto sm:justify-center mt-10">
           <nav aria-label="Page navigation">
             <ul className="list-style-none flex">
@@ -103,7 +106,19 @@ function Workouts() {
             </ul>
           </nav>
         </div>
+
+        
       </div>
+      
+      <div className="col-span-1 h-full w-full rounded-xl 2xl:col-span-1">
+        <TopCreatedCard
+          extra="mb-5"
+          tableData={tableDataTopCreators}
+          columnsData={tableColumnsTopCreators}
+        />
+        <HistoryCard />
+      </div>
+     
     </div>
   );
 };

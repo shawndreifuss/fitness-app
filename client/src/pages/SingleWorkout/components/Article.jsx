@@ -141,7 +141,7 @@ const data = [
                   
                   
                    
-                      <Tabs classname='sticky top-40' id="custom-animation" value={activeTab}>
+                      <Tabs className='sticky top-40' id="custom-animation" value={activeTab}>
       <TabsHeader>
         {data.map(({ label, value }) => (
           <Tab key={value} value={value} onClick={() => setActiveTab(value)}>
