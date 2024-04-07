@@ -3,7 +3,7 @@ import React from 'react'
 const SubscribeCard = () => {
   return (
     <div
-    className="wow fadeInUp relative mb-12 overflow-hidden rounded-[10px] bg-purple-500 px-11 py-[60px] text-center lg:px-8"
+    className="wow fadeInUp relative mb-12 overflow-hidden rounded-[10px] bg-purple-900 px-11 py-[60px] text-center lg:px-8"
     data-wow-delay=".1s
     "
   >
@@ -49,7 +49,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -57,7 +57,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -65,7 +65,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -73,7 +73,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -81,7 +81,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -89,7 +89,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -97,7 +97,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -105,7 +105,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -113,7 +113,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -121,7 +121,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -129,7 +129,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -137,7 +137,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -145,7 +145,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -153,7 +153,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -161,7 +161,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -169,7 +169,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                         </svg>
                       </span>
@@ -187,7 +187,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -195,7 +195,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -203,7 +203,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -211,7 +211,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -219,7 +219,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -227,7 +227,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -235,7 +235,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 44.6026)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -243,7 +243,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 7.9913)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -251,7 +251,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -259,7 +259,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -267,7 +267,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -275,7 +275,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 32.3058)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="1.39737"
@@ -283,7 +283,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 1.39737 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="13.6943"
@@ -291,7 +291,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 13.6943 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="25.9911"
@@ -299,7 +299,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 25.9911 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                           <circle
                             cx="38.288"
@@ -307,7 +307,7 @@ const SubscribeCard = () => {
                             r="1.39737"
                             transform="rotate(-90 38.288 20.0086)"
                             fill="white"
-                            fill-opacity="0.44"
+                            fillOpacity="0.44"
                           />
                         </svg>
                       </span>

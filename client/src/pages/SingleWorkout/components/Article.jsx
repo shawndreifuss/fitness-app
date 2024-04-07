@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState } from 'react'
 import { Benefits, Quotes} from '@/Data/Benefits'
 import { Link } from 'react-router-dom'
 import ImageList from '@mui/material/ImageList';
@@ -6,12 +6,45 @@ import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import IconButton from '@mui/material/IconButton';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
+import {
+  Tabs,
+  TabsHeader,
+  TabsBody,
+  Tab,
+  TabPanel,
+} from "@material-tailwind/react";
+import ChatIcon from '@mui/icons-material/Chat';
+import InsertPhotoIcon from '@mui/icons-material/InsertPhoto';
+import QuizIcon from '@mui/icons-material/Quiz';
+import AddBoxIcon from '@mui/icons-material/AddBox';
+import CommentCard from './Cards/CommentCard';
+ 
 
 
 
 
  
 const Article = (workout) => {
+const [activeTab, setActiveTab] = useState("comments");
+
+const data = [
+  {
+    label: <ChatIcon/>,
+    value: "comments",
+    
+  },
+  {
+    label: <InsertPhotoIcon/>,
+    value: "images",
+  },
+  {
+    label: <QuizIcon/>,
+    value: "faqs",
+  },
+  { label:<AddBoxIcon/>, value: "add" },
+
+  
+];
 
 
   const itemData = [
@@ -25,7 +58,7 @@ const Article = (workout) => {
       featured: true,
     },
     {
-      img: 'https://curl.co/wp-content/uploads/2017/01/Day3-Lifting.gif',
+      img: '/img/gif.png',
       featured: true,
     },
   ];
@@ -102,28 +135,63 @@ const Article = (workout) => {
                   >
                     
                   </h3>
-                  <div
+
+      
+        
+                  
+                  
+                   
+                      <Tabs classname='sticky top-40' id="custom-animation" value={activeTab}>
+      <TabsHeader>
+        {data.map(({ label, value }) => (
+          <Tab key={value} value={value} onClick={() => setActiveTab(value)}>
+            {label}
+          </Tab>
+        ))}
+      </TabsHeader>
+      <TabsBody
+        animate={{
+          initial: { y: 250 },
+          mount: { y: 0 },
+          unmount: { y: 250 },
+        }}
+      >
+
+  <TabPanel value={activeTab}>
+
+{activeTab === "comments" &&  <CommentCard />}
+
+
+{activeTab === "images" && (
+  <>
+  <div
                     className="wow fadeInUp relative z-10 mb-10 overflow-hidden rounded-[5px] bg-primary/5 px-2 py-2    text-center sm:p-10 md:px-[60px]"
                     data-wow-delay=".1s
                     "
                   >
-                    <div className="mx-auto mt-2">
+                       <div className="mx-auto mt-2">
                       <span className="mb-[14px] flex justify-center text-primary">
                       <div className='w-full flex gap-1 flex-wrap justify-around h-96 overflow-y-scroll '>
-          {workout?.workout?.images && itemData.map((item) => (
-            <img src={item.img} alt={item.title} className='w-full -mt-5'/>
-          ))} 
+{workout?.workout?.images && itemData.map((item, index) => (
+    <React.Fragment key={item.img || index}>
+      <img src={item.img} alt={`workout image ${index + 1}`} className='w-full -mt-5'/>
+    </React.Fragment>
 
 
-            
-          
+  ))}
+  </div>
+  </span>
+  </div>
+  </div>
+  
+  </>
 
+)}
+  </TabPanel>
+
+      </TabsBody>
+    </Tabs>
                       
-
-                      </div>
-                      </span>
-                     
-                    </div>
                     <div>
                       <span className="absolute top-0 left-0">
                         <svg
@@ -150,11 +218,11 @@ const Article = (workout) => {
                               y2="-49.6518"
                               gradientUnits="userSpaceOnUse"
                             >
-                              <stop stop-color="#3056D3" stop-opacity="0.15" />
+                              <stop stopColor="#3056D3" stopOpacity="0.15" />
                               <stop
                                 offset="1"
-                                stop-color="white"
-                                stop-opacity="0"
+                                stopColor="white"
+                                stopOpacity="0"
                               />
                             </linearGradient>
                           </defs>
@@ -184,11 +252,11 @@ const Article = (workout) => {
                               y2="52.3482"
                               gradientUnits="userSpaceOnUse"
                             >
-                              <stop stop-color="#3056D3" stop-opacity="0.15" />
+                              <stop stopColor="#3056D3" stopOpacity="0.15" />
                               <stop
                                 offset="1"
-                                stop-color="white"
-                                stop-opacity="0"
+                                stopColor="white"
+                                stopOpacity="0"
                               />
                             </linearGradient>
                           </defs>
@@ -196,6 +264,8 @@ const Article = (workout) => {
                       </span>
                     </div>
                   </div>
+    
+
                   <h3
                     className="wow fadeInUp mb-6 text-3xl font-bold text-dark dark:text-white sm:text-[28px] sm:leading-[40px]"
                     data-wow-delay=".1s"
@@ -239,7 +309,6 @@ const Article = (workout) => {
                       <span
                         className="text-xs italic text-body-color dark:text-dark-6"
                       >
-                        
                       </span>
                     </div>
                     <div>
@@ -268,11 +337,11 @@ const Article = (workout) => {
                               y2="-49.6518"
                               gradientUnits="userSpaceOnUse"
                             >
-                              <stop stop-color="#3056D3" stop-opacity="0.15" />
+                              <stop stopColor="#3056D3" stopOpacity="0.15" />
                               <stop
                                 offset="1"
-                                stop-color="white"
-                                stop-opacity="0"
+                                stopColor="white"
+                                stopOpacity="0"
                               />
                             </linearGradient>
                           </defs>
@@ -302,11 +371,11 @@ const Article = (workout) => {
                               y2="52.3482"
                               gradientUnits="userSpaceOnUse"
                             >
-                              <stop stop-color="#3056D3" stop-opacity="0.15" />
+                              <stop stopColor="#3056D3" stopOpacity="0.15" />
                               <stop
                                 offset="1"
-                                stop-color="white"
-                                stop-opacity="0"
+                                stopColor="white"
+                                stopOpacity="0"
                               />
                             </linearGradient>
                           </defs>
@@ -352,19 +421,19 @@ const Article = (workout) => {
                         data-wow-delay=".1s"
                       >
                         <Link
-                          href="javascript:void(0)"
+                          href="#"
                           className="block rounded-md bg-purple-200 px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                         >
                           Design
                         </Link>
                         <Link
-                          href="javascript:void(0)"
+                          href="#"
                           className="block rounded-md bg-purple-200 px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                         >
                           Development
                         </Link>
                         <Link
-                          href="javascript:void(0)"
+                          href="#"
                           className="block rounded-md bg-purple-200 px-[14px] py-[5px] text-base text-dark hover:bg-primary hover:text-white dark:text-white"
                         >
                           Info
@@ -382,7 +451,7 @@ const Article = (workout) => {
                           Share This Post
                         </span>
                         <div className="flex items-center gap-[10px]">
-                          <Link href="javascript:void(0)">
+                          <Link href="#">
                             <svg
                               width="32"
                               height="32"
@@ -400,7 +469,7 @@ const Article = (workout) => {
                               />
                             </svg>
                           </Link>
-                          <Link href="javascript:void(0)">
+                          <Link href="#">
                             <svg
                               width="32"
                               height="32"
@@ -418,7 +487,7 @@ const Article = (workout) => {
                               />
                             </svg>
                           </Link>
-                          <Link href="javascript:void(0)">
+                          <Link href="#">
                             <svg
                               width="32"
                               height="32"
@@ -441,7 +510,7 @@ const Article = (workout) => {
                     </div>
                   </div>
                 </div>
-              </div>
+            
     </>
   )
 }

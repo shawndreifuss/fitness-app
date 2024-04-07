@@ -34,7 +34,7 @@ const TrendingCard = () => {
         <div className="w-full">
           <h4>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="inline-block mb-1 text-lg font-medium leading-snug text-dark hover:text-primary dark:text-dark-6 dark:hover:text-primary lg:text-base xl:text-lg"
             >
               Arm workout for beginners
@@ -64,7 +64,7 @@ const TrendingCard = () => {
         <div className="w-full">
           <h4>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="inline-block mb-1 text-lg font-medium leading-snug text-dark hover:text-primary dark:text-dark-6 dark:hover:text-primary lg:text-base xl:text-lg"
             >
               Legs workout for beginners
@@ -94,7 +94,7 @@ const TrendingCard = () => {
         <div className="w-full">
           <h4>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="inline-block mb-1 text-lg font-medium leading-snug text-dark hover:text-primary dark:text-dark-6 dark:hover:text-primary lg:text-base xl:text-lg"
             >
                50 best ab workouts for beginners
@@ -124,7 +124,7 @@ const TrendingCard = () => {
         <div className="w-full">
           <h4>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="inline-block mb-1 text-lg font-medium leading-snug text-dark hover:text-primary dark:text-dark-6 dark:hover:text-primary lg:text-base xl:text-lg"
             >
               Full body workout for beginners

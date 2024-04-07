@@ -28,7 +28,7 @@ const SingleWorkout = () => {
       <Hero user={user} workout={workout} />
       <section className="pb-10 -mt-20 dark:bg-dark lg:pb-20 ">
         <div className="container">
-          <div className="flex flex-wrap justify-center -mx-4">
+          <div className="flex flex-wrap justify-center -mx-4 pt-40">
             <Article workout={workout} />
             <div className="w-full px-4 lg:w-4/12">
               <div>
