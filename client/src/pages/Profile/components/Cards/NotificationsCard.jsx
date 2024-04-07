@@ -11,6 +11,10 @@ const notifications = [
   { id: 2, title: "Text Notifications",value: 'sms',  Icon: ChatOutlinedIcon, field: "notifications.sms", message: "Text notifications changed successfully!" },
   { id: 3, title: "Push Notifications",value: 'push',  Icon: NotificationsActiveOutlinedIcon, field: "notifications.push", message: "Push notifications changed successfully!" },
   { id: 4, title: "Reminders", value: 'reminders',  Icon: CampaignOutlinedIcon, field: "notifications.reminders", message: "Reminders changed successfully!" },
+  { id: 5, title: "daily Notifications", value: 'dailySms', Icon: InboxIcon, field: "notifications.dailySms", message: "Email notifications changed successfully!" },
+  { id: 6, title: "weekly Notifications", value: 'weeklySms', Icon: ChatOutlinedIcon, field: "notifications.weeklySms", message: "Text notifications changed successfully!" },
+  { id: 7, title: "monthly Notifications", value: 'monthlySms', Icon: NotificationsActiveOutlinedIcon, field: "notifications.monthlySms", message: "Push notifications changed successfully!" },
+  { id: 8, title: "New Feature Updates", value: 'updates', Icon: CampaignOutlinedIcon, field: "notifications.updates", message: "Reminders changed successfully!" },
 ];
  const NotificationsCard = () => {
 
@@ -66,7 +70,7 @@ setReminders(settings.notifications.reminders)
   };
   
   return (
-    <div className="p-4 mb-4 bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
+    <div className="p-4  bg-white border border-gray-200 rounded-lg shadow-sm 2xl:col-span-2 dark:border-gray-700 sm:p-6 dark:bg-gray-800">
       <div className="flow-root">
         <h3 className="text-xl font-semibold dark:text-white">
           Notification Settings

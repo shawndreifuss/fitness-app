@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { useUser } from "../../../../context/UserContext";
+import { useUser } from "@/context";
 
 const AddressCard = ({ user }) => {
 

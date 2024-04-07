@@ -36,7 +36,7 @@ export function ProfilePage({user}) {
                 mobile: `${user?.phone}`,
                 email: `${user?.email}`,
                 nutrition: `${user?.phone}`,
-                preferences: `${user?.settings.nutritionalSettings?.dietaryRestrictions}`,
+                preferences: `${user?.settings?.nutritionalSettings?.dietaryRestrictions}`,
                 calories: `${user?.settings.nutritionalSettings?.calorieGoal}`,
 
 

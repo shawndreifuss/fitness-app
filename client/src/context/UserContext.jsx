@@ -195,7 +195,7 @@ export const UserProvider = ({ children }) => {
     console.log("Address data:", addressData);
     try {
       const response = await axiosInstance.put(
-        `${userId}/update-address`,
+        `/user-settings/${userId}/update-address`,
         addressData
       );
       console.log("Address update response:", response.data);

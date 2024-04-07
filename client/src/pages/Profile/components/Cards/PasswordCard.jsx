@@ -55,6 +55,7 @@ const handleEditClick = async (e) => {
                     placeholder="••••••••"
                     value={passwordFields.currentPassword}
                     onChange={handleInputChange}
+                    autoComplete='current-password'
                     required
                 />
             </div>
@@ -71,6 +72,7 @@ const handleEditClick = async (e) => {
                             value={passwordFields.newPassword}
                             onChange={handleInputChange}
                             required={isEditing}
+                            autoComplete='new-password'
                         />
                     </div>
                     {/* Confirm Password */}
@@ -86,6 +88,7 @@ const handleEditClick = async (e) => {
                             value={passwordFields.confirmPassword}
                             onChange={handleInputChange}
                             required={isEditing}
+                            autoComplete='new-password'
                         />
                     </div>
           {/* Edit/Save Button */}
