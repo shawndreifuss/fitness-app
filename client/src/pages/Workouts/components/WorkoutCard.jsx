@@ -19,7 +19,6 @@ export function WorkoutCard({ workout, user }) {
     disliked: false,
     dislikes: workout?.dislikes,
   });
-console.log(workout)
   useEffect(() => {
     // Check if the user's favorites include the current workout and update isFavorite accordingly
     if (user && user.favorites.includes(workout._id)) {

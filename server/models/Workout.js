@@ -67,6 +67,10 @@ dislikes: {
     type: String,
     enum: ['indoor', 'outdoor', 'gym', 'home', 'anywhere']
   },
+  comments: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Comment'
+  }],
   completed: Boolean,
   video: [String],
   userFeedback: {
